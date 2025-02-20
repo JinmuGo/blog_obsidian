@@ -154,7 +154,8 @@
       },
       "version": "1.0.3",
       "host": "https://api-free.deepl.com/v2",
-      "preserve_formatting": true
+      "preserve_formatting": true,
+      "api_key": "aa67d7f6-ac9e-45ad-8ee1-3a6fed774ef8:fx"
     }
   }
 }
