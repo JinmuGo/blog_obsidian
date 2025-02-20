@@ -11,265 +11,278 @@ preview: /banner/experience/12th-9oormthon.jpeg
 keywords:
   - hackathon
   - goormthon
-  - 12th goormthon
+  - 12th Oormthon
 ---
+
 ## Intro
 
-I participated in the 12th edition of 9oormthon from December 10, 2024 to December 13, 2024 as a front-end developer.
-In this post, I'm going to write about my first hackathon experience.
+2024.i participated as a front-end developer in the 12th edition of 9oormthon, which ran from December 10 to December 13, 2024. In this post, I'd like to write about my first hackathon experience.
 
-In addition to being a personal recap of my first hackathon, this article is intended to be helpful to prospective CloudToners.
+in addition to my personal recap of my first hackathon, I've written this to help prospective CloudToners.
 
 ## Motivation to participate
 
-*"Collaborate with other professions"*.
+1.  collaborating with other professions
 
 In the process of IT service development, I wanted to understand the results of planners and designers and develop ideas together by requesting modifications or adding opinions.
-On the other hand, I participated because I wanted to have the experience of explaining the problems that may arise during the programming process so that the planners and designers could understand.
-At 42seoul, I mainly collaborated with people who are in development or have learned development, so I wanted to collaborate with people who have a low understanding of development at this Goormathon.
+conversely, I joined the program because I wanted to have the experience of explaining the problems that may arise during the programming process so that the planners and designers could understand.
+at [42seoul](https://42seoul.kr), where I first learned programming, I mainly collaborated with people who worked in development or learned development, so at this Goormathon, I wanted to collaborate with people who had less understanding of development and practice explaining complex situations to them in an easy way.
 
-*"Fast and accurate product development training"*.
+2. fast and accurate product development training
 
-In general, accuracy and speed are inversely related. But in the real world, you have to set deadlines and develop products accordingly.
-I joined Goomtone to train in an immersive environment where I could focus on both speed and accuracy.
+in the real world, you have to set deadlines and develop products to meet them.
+i joined Goomtone to train with speed and accuracy in an immersive environment.
 
 ## Complete the application
 
-The applications had a total of 5 common items + 1 item specific to the development role.
+the application has a total of **5 common items** + **1 item specific to the development job**.
 
-1. Motivation for participating in Goormathon
-2. Social issues facing Jeju Island in recent years
-3. Service ideas to solve the above problems
-4. Your strengths to lead flexible collaboration.
-5. Goal for 'growth' in Goormathon
-6. Description of projects you have worked on.
+1. motivation to Participate
+2. recent social issues facing Jeju Island
+3. service ideas to solve the above issues
+4. my own strengths to lead flexible collaboration.
+5. goals for 'growth' in Goormathon
+6. description of the project you worked on.
 
-I focused my application a little more on points 2, 3, and 6 of the above.
+i focused a little more on **numbers 2, 3, and 6** of the above items in my application.
 
-In particular, for items 2 and 3, I spent more time on presenting service ideas to solve the problem, although it is important to accurately diagnose the current social problems on Jeju Island.
-When I was writing the application, I thought that the definition of the problem was similar to everyone else's and that there was nothing new to say, so I thought it was more important to present ideas on how to solve the problem accurately.
+**Define the problem + provide a solution**
+i thought that items 2 and 3 were presented to see the ability to solve the problem after accurately diagnosing the problem.
+since many services have been developed and many plans have been made during the 12 years of Goormon, we thought that the problem definition would not be new anymore. Therefore, we spent more time on presenting service ideas to solve the problem. We thought it was more important to present ideas on how to solve this problem correctly
 
-Also, item 6 was to describe the projects I've worked on before, and I was going to introduce the projects I worked on at 42seoul ([webserv](https://github.com/WebWaveMaker/webserv), [ft_transcendence](https://github.com/42ForYou/ft_transcendence), etc,
-I don't think I can explain the motivation and goal of the project well, so I introduced the [obsidian-go-up](https://github.com/JinMuGo/obsidian-go-up) project, which is a simple plugin for the note app Obsidian.
+**Motivation and goals of the project
+item 6 was to describe the projects you have worked on before.
+i was going to introduce some of the projects I worked on at [42seoul](https://42seoul.kr) ([webserv](https://github.com/WebWaveMaker/webserv), [ft_transcendence](https://github.com/42ForYou/ft_transcendence), etc.), but since they all solved a given problem, I didn't think I could explain the motivation and goals of the project well. So I introduced the [obsidian-go-up](https://github.com/JinMuGo/obsidian-go-up) project, which was a simple plugin for Obsidian that was born out of a pain point I felt.
+i've tried to convey as much as I can in this post about my motivation for the project and how I tried to solve it.
 
-As much as possible, I tried to incorporate the problem definition of why I was working on this project and how I wanted to solve it into my writing.
+i received an acceptance email 4 days after submitting and was able to participate in the Goormathon.
+![Acceptance email](./image.webp)
 
-Luckily, I passed and was able to participate in the Goormathon.
+## Schedule
+here are the key events for each day
 
-![Passed mail](./image.webp)
+| **Day 1** |                                    **Highlighted Events**                                     |
+| :-------: | :-------------------------------------------------------------------------------------------: |
+| **Day 1** | - [[#Hackathon Lecture]]<br/>- 3 minutes [[#Self PR]] <br />-[[#Ideation Topic Presentation]] |
+| **Day 2** |      - [[#2min IDEATION]]<br/>- [[#Team Building]]<br/>- [[#Beer Party]]<br/>- Hackathon      |
+| **Day 3** |                                    - Hackathon in progress                                    |
+| **Day 4** |              - [[#Hackathon Presentation]]<br/>- Results Announcement and Awards              |
 
-## Day 0
+### Day 0
 
-I arrived in Jeju Island on December 09, the day before, and prepared to participate in Goormathon.
+i arrived in Jeju Island on the afternoon of December 9, the day before, and prepared to participate.
 
-%% 18 seconds bio post link %%
+### Write a bio
 
-#### Write a bio
+i had to write a bio page on Notion because I had to give a 3-minute Self PR on the first day of Goormathon.
+i'm not very good at introducing myself, so I was most afraid of the Self PR on the first day. I've had to give presentations since I was in school, and my ears and face would turn red just getting up from my seat. So I often avoided presentations, but I realized that I couldn't even convince others if I avoided it because I couldn't give a presentation. So I wanted to get better this time, so I searched for the keyword "self-presentation" in the library, read the book 18-second self-presentation [^self-pr-book], and wrote a self-presentation page based on the book and prepared for the presentation.
 
-I had to create a self-presentation page on Notion because I had to present a 3-minute self-presentation on the first day of Goormathon.
-I was not good at introducing myself, so I read the book 18 Second Self-Promotion [^self-pr-book], which was found by searching the keyword "self-promotion" in the library, and wrote a self-promotion page based on the book.
-I will write a review of the book later.
+early in the book, the author says.
+> [!note] The 18-second introduction
+> An introduction is not about introducing yourself, it's about introducing the future the listener can gain from your involvement
 
-When writing pages and preparing scripts, you'll want to use the
+along those lines, I wrote it in a way that introduced what the listener could get out of my experience. in other words, I made my bio about the listener, not me, so I positioned myself as the pacer of the cloud talkers and tried to convey a metaphorical message to others, "It would be great to team up with me!"
 
+below is the bio page I wrote.
 
-> [!note] 18 Second Self-Promotion
->   It's not about introducing yourself, it's about introducing the future the listener can gain from your involvement.
-> 
-
-I wanted to share my experience and how the audience could benefit from it.
-I positioned myself as a pacemaker for the CloudToners and tried to convey the message that it would be great if others would "team up and collaborate!" with me.
-
-![About Me Page](./image2.webp)
-
+![[About Me Page.png]]
+after we finished our bio pages and scripts, we went to bed.
 ## Day 1
 
-Day 1 consisted of a lecture about the hackathon, introductions, and a presentation of the foundation theme.
+day 1 consisted of [[#Hackathon Lectures]] and presentations on the topics of [[#Self PR]], [[#Identification]] topics were presented.
 
-#### Hackathon Lectures - Open Source Excitement
+### Hackathon Lecture
+ 
+ *hackathon with open source excitement*
+ 
+before the Goormathon. we had a lecture that gave us an overview of how to approach a hackathon with the right mindset.
 
-Before Goormathon, there was a lecture that gave us a general overview of how to approach a hackathon with the right mindset.
-
-He emphasized the importance of choice and focus, especially given the nature of hackathons where you have to develop a product in a short time.
-We talked about how to stand on the shoulders of giants, i.e., how to develop quickly by leveraging already developed open source, or how to quickly materialize ideas by utilizing design tools such as Lean Canvas.
+we emphasized the importance of being selective and focused, especially due to the nature of hackathons where you have to develop a product in a short time.
+therefore, we introduced how to develop quickly by utilizing already developed open source or how to quickly materialize ideas by utilizing design tools such as Lean Canvas.
 
 During the MVP development process, we emphasized the following points
 
-- Prioritizing speed over perfection: Focus on implementing ideas quickly rather than developing a perfect product.
-- Focus on one thing rather than broader concerns: Focus on the right features (functionality) and measure the success of those features.
-- Agility instead of waterfall: Don't focus on process and procedure, prioritize speed with division of labor and collaboration.
-- Practicality, not more features: Don't boast as many features as possible, but provide specific value to users.
+- prioritizing speed over perfection: focus on implementing ideas quickly rather than developing a perfect product.
+- focus on one thing rather than broader concerns: Focus on the right features (functionality) and measure the success of those features.
+- agility instead of waterfall: Don't focus on process and procedure, prioritize speed with division of labor and collaboration.
+- practicality, not more features: Don't boast as many features as possible, but provide specific value to users.
 
 ![mvp-image](./image3.webp)
 
-We felt it was important to focus on one thing that we wanted to deliver and deliver it well.
-We felt it was important to dig into the core and find the wow factor.
+we realized that it was important to focus on one aspect of what we wanted to offer and deliver it well, rather than trying to develop everything.
 
-He also told us what not to do at this hackathon, one of which was to "just work hard".
-He emphasized that we shouldn't just focus on building and implementing something, but that we shouldn't forget the context of why and how our team is doing what we are doing.
-This is similar to what I ultimately wanted to accomplish in this hackathon, so I took it to heart and went into Goormathon.
+he also told us what not to do at this hackathon, one of which was to "just work hard".
+he emphasized that we shouldn't just focus on building and implementing something, but also not forgetting the context of why and how our team is doing what we are doing. This is not just for a hackathon.
+i took this to heart and went into Goormathon with this in mind because it's similar to what I ultimately wanted to accomplish in this hackathon.
 
 ### Self PR
 
-After the lecture and lunch, we had a 3-minute pitch.
+after the lecture and lunch, we gave our 3-minute bio pitches.
 
-I have public speaking phobia, so I memorized the script I had prepared in advance. However, the staff helped me break the ice and I was able to relax while listening to other people's presentations.
-Since the hackathon was held in Jeju Island, everyone came from different places. If it was held in Seoul, I don't think I could have met such a diverse group of people.
-I was too nervous to listen to other people's presentations, but if I had this opportunity again, I would work harder to prepare my presentation and listen to other people's presentations more intently.
+i presented from a script that I had memorized the day before.  i was able to break the ice and relax while listening to other people's presentations.
+since it was a hackathon in Jeju Island, everyone was from so many different places, and I realized that I wouldn't have been able to meet such a diverse group of people if it was held in Seoul.
+i was too nervous to listen to other people's presentations, but if I had this opportunity again, I would work harder to prepare my presentation and listen to other people's presentations more intently.
 
-#### Hackathon Lecture - How to Grow from a Hackathon
+shamefully, below is my full bio.
 
-There was another hackathon lecture, which talked about how to grow from a hackathon.
+> [!quote]+ bio
+> > Hello, I'm Jinmoo Go, a front-end developer who wants to be a pacemaker for Goormonster.
+>
+> This Goormathon is a special opportunity for me. it is because I can team up with experts in various fields and learn together from planning to deployment. Especially, I think it will be really valuable to have the experience of understanding and communicating with planners and designers for the first time. I hope to create a meaningful time to achieve a common goal through this process.
+>
+> That's why I'm going to be a pacemaker in this Goormathon. a pacemaker doesn't just run ahead of the team, but also understands the status and needs of the team members and acts accordingly. I thought that the ability of a pacemaker to understand the other person and decide my behavior accordingly is also functional in Goormathon.
+>
+> My name is written as 'Moo to touch' on 'Jin to calm down', which means 'true Jin' is a spinner, and 'Moo to touch' is written as 'Handoja' on 'nothing', which means 'touching something that is not there', which means to touch the heart. since I became a programmer, I thought that I would spend my life creating something that touches people's hearts, and I hope to create something wonderful with you in this Goormathon. if you want to build a great team, feel free to reach out. i hope we can create a great experience together. thank you.
 
-You've been talking about DONE and PERFECT. He said that most of us
-**tend to perceive DONE as not perfect and PERFECT as not done.
-In a hackathon, everyone has a different definition of DONE. And he said that DONE and PERFECT are not polar opposites.
+### Hackathon Lesson - How to Grow from a Hackathon
 
-And between DONE and PERFECT is GROWTH. Growth is moving from my current state, which is between DONE and PERFECT, closer to PERFECT.
+after the introductions, there were other hackathon lectures, which talked about how to grow from the hackathon. One that stuck out in my mind was the talk about `DONE` and `PERFECT`.
 
-"PERFECTLY DONE." It was an announcement that resonated with me.
+it's been said that most of us tend to perceive DONE as not being PERFECT and PERFECT as not being DONE.
+in a hackathon, everyone has a different definition of DONE, so DONE and PERFECT are not polar opposites.
 
----
+and between DONE and PERFECT is GROWTH. if you are currently between DONE and PERFECT, getting closer to PERFECT is called growth.
 
-At the end of the first day, there was a presentation of the idea topic. The theme of the 12th edition was "Aging".
+so, "PERFECTLY DONE." every moment of the hackathon. we were told to aim for perfection and go for it.
 
-When I wrote my application, I was fortunate enough to present services related to aging, so I took this a bit further and created a PPT.
+this lesson is said to be based on Chiksent Mihai's book Immersion [^1], which you might want to check out if you're interested.
 
-On the first day, we went out for a walk with the team in the middle of the day, and in the evening, we had a great time eating black pork with other goormoners.
+### Foundation Topic Presentation
+at the end of Day 1, we had our foundation theme presentation.
+the theme for this 12th edition was Aging.
+
+when I [[#applied]] for a job, I took it a step further by presenting services related to aging and created a PPT.
+
+
+### Wrap up Day 1
+
+on Day 1, I went for a walk with my teammates in the middle of the day, and in the evening, I had a fun time eating black pork with other Goormoners. you don't get to go outside that much during Goormathon, so I recommend that you move around a lot from day 1. Sometimes it's hard to realize that you're in Jeju Island.
 
 | ![jeju](./image7.webp) | ![1st-dinner](./1st-dinner.webp)
 | ---------------------- | -------------------------------- |
 
-
 ## Day 2
 
-#### 2 min IDEATION
+on Day 2, teams will present their ideas on the previous day's ideation topic, "Aging"
+[[2-minute ideation time]], [[#team building]], and [[#beer party]]
 
-We presented the IDEATION in a PPT for 2 minutes, and then proceeded with team building.
+### 2 minutes IDEATION
 
-I proposed a service called 'Gilbot'. I simply presented a one-minute solution to a one-minute problem.
+you have 2 minutes to present your idea in a one-page PPT.
+i proposed a service called 'Gilbot'. *i presented a *1-minute problem definition** **1-minute solution** with a big framework.
 
 ![길벗](./image4.webp)
 
-The presentation time was short and I only had one PPT, so I was less nervous than yesterday.
-Afterward, I listened to other people's presentations and thought about who I would like to team up with and what ideas I would like to share.
+the presentation time was short and I only had one PPT, so I was less nervous than yesterday.
+afterwards, I listened to the other presentations and thought about who I would like to team up with and what ideas I would like to work on.
 
 ### Team building
 
-The team building time was like a marketplace. There was no system, everyone just asked who they wanted to be on the team and formed a team.
-I had a list of people I wanted to work with beforehand, and luckily I didn't have much trouble organizing my team. If you're going to participate in Goormathon, I would recommend that you think about who you want to team up with and what ideas you want to bring to the table during the team building time.
-Also, there is a certain amount of luck involved. We were often teamed up with people who were relatively close to us based on our initial randomized seats.
+team building time felt like a marketplace. there was no system, we just asked for input from whoever we wanted and formed teams.
 
-So if you have a goal or outcome that you want, it's important to actively work towards it. I think you'll be more satisfied with the outcome if you take the initiative to build your team than if you wait for them to come to you.
+i had a list of people I wanted to work with while listening to the ideation, and I was lucky enough to have no trouble organizing my team. if you're going to participate in a goormathon, I think it's a good idea to think about who you want to team up with and what ideas you want to work on during the team building time.
+in this hackathon, we were often teamed up with people who were relatively close to each other based on their initial randomly assigned seats.
 
-That's how our team "[**Olmangolmangolmangolmang**](https://github.com/ddol-mang)" was formed. The organizer came up with the team name out of the blue, but I really liked it.
-A bunch of old ladies gathered for old ladies. It's a good name.
+so if you have a goal or outcome you want, it's important to be proactive in moving toward it. you'll be more satisfied with the outcome if you take the initiative to make it happen than if you wait for your teammates to come to you.
 
-### Select a topic
+that's how our team, "[**Olmangolmangolmangolmang**](https://github.com/ddol-mang)" was formed. our organizer came up with the name out of the blue, and we all liked it so much that we decided to stick with it.
 
-After the team was formed, we brainstormed to select topics that fit the theme of "Jeju Island," "Cloud," and "Aging."
-However, it was not easy to choose the right service for the theme.
-We couldn't fundamentally solve the social problem of aging, so we decided to develop a service that could alleviate or solve the problems caused by aging.
+a bunch of old ladies gathered together for the sake of their grandmother
+
+after the team was formed, we had a brainstorming session to select topics that fit the theme of Jeju Island, cloud, and aging. However, it was not easy to select services that fit the theme.
+we couldn't fundamentally solve the social problem of aging, so we decided to develop a service that could alleviate or solve the problems caused by aging.
+
+however, we ended up at a beer party at 6pm with no good ideas.
 
 ### Beer Party
 
-There was a beer party to connect with other team members outside of the formed team.
+beyond the formed teams, we had a beer party to connect with other team members and mentors.
 
-It was based on a total of three timetables.
+the beer party was based on three timetables.
 
-1. time to chat with people sitting in randomly assigned seats (6-7:30)
-2. free-form conversations at tables organized by job function - with mentor participation (7:30-9:00)
+1. time to chat with people sitting in randomly assigned seats (6:00-7:30)
+2. free-flowing conversations at tables organized by job function - with mentor participation (7:30-9:00)
 3. free time to chat with other team members (9-11)
 
-This was by far my favorite part of the hackathon. I enjoyed talking to other people, and listening to their stories made me think about various things.
-As Mr. Goormathon said, I think the best way to enjoy the hackathon is to network and enjoy the beer party as much as possible.
-I left the beer party a little early because I was anxious that the topic hadn't been selected yet, but I thought that if I had this opportunity next time, I would enjoy it fully and communicate with others.
+i had one of my favorite times at this hackathon. i enjoyed talking to other people who came to Goormathon, and hearing their stories made me think about various things.
+i think that if you're a goormoner participating in a goormathon, you should spend as much time at the beer party as you would at a hackathon to talk to other people and network with them to get 200% out of it.
 
 ### Decide on a topic
 
-After the beer party, we spent time with the team to decide on a theme. We had to choose a topic before we could start the hackathon.
-I think we talked about a lot of things. Services for seafarers. The connection between the elderly and the young. We discussed many topics, such as services using grandparents' homes, such as temple stays.
-However, we were rejected for various reasons.
+after the beer party, we reconvened to decide on a theme with our teammates. We had to choose a theme before we could start the hackathon tomorrow.
+i think we talked about a lot of things. Services for seafarers. connecting the elderly and the young. a service using grandma and grandpa's house like a temple stay, and many other topics were discussed but dismissed for various reasons.
+we chose the topic based on [a newspaper article](https://www.jejunews.com/news/articleView.html?idxno=2215293) that was published on the day of the hackathon that one of the team members found.
 
-The topic was inspired by a newspaper article that was published on the same day as our hackathon.
+> [!quote]
+> > In other words, the happiness of seniors is dominated by the following: their children are healthy, their children are married and living in harmony, and they continue to be as active as their bodies allow.
+>
+> ... (emphasis added)
+>
+> "Relationship with children" is more important than living standards or current life in terms of life satisfaction.
+> > In short, older adults in Jeju Island have children at the center of their happiness, but they are relationship-oriented rather than dependent, explore independence and meaning in life through work, and value their children's health and happiness more than their own.
+>
 
-''
-  In other words, the elderly person's well-being is characterized by their children being healthy, their children being married and living in harmony...(emphasis added)
+through the above article, we realized that there is a need for a connection between offshore parents and mainland children, and to solve this problem, we decided to develop a platform between parents and children who can communicate their current status through simple interaction.
 
-  In "Life Satisfaction," "Relationship with children" has a greater impact than living standards or current life.
-  In short, older adults in Jeju have their children at the center of their happiness, but they are relationship-oriented, not dependent, and they explore independence and meaning in their lives through work, and they value their children's health and happiness more than their own.
+we chose the topic because everyone on the team felt connected and excited about the issue. Personally, I was thrilled when the topic was first decided.
+the process of brainstorming and fleshing out ideas was hard, but we had so much fun that we stayed up until 4am.
+i was worried before the hackathon because I'm a light sleeper and a night owl, but I was so engrossed that it didn't matter.
 
-
-This sentence made us realize that there is a need for connectivity between offshore parents and mainland children, and to solve this problem, we decided to develop a platform between parents and children who can communicate their current status with a few simple touches.
-
-With more and more people living away from their families, it's becoming harder to communicate with our parents.
-We chose this topic because it resonated with and intrigued everyone on the team. Personally, I was thrilled when the topic was first decided.
-We stayed up until 4 a.m. to discuss and refine our ideas, but it was so much fun that we lost track of time.
-I was worried before the hackathon started because I'm a light sleeper and a night owl, but I was wrong.
-
-We decided to go to our rooms and sleep for tomorrow. We all shared our rooms with our teammates on KakaoTalk and went to bed, worried that things might not go well.
+afterwards, we decided to go to our rooms to sleep for tomorrow's hackathon. We were all nervous about oversleeping, so we shared our rooms on KakaoTalk with our teammates and went to bed.
 
 ## Day 3
 
-After the topic was selected, we had a meeting to develop a specific service, specify the API and DB, and plan the front-end development according to the designer's screen design.
-Since I was not yet familiar with libraries such as react-query and zustand, I asked another front-end developer to focus on the screen implementation + back-end API.
-I was in charge of implementing the screen + setting up the deployment environment for the front-end unit.
+after the topic was selected, we had a meeting to develop a specific service, specify the API and DB, and plan the front-end development according to the designer's screen design.
 
-When implementing screens and frontend logic, other frontend developers helped me a lot in areas where I was lacking, so I was able to develop quickly.
+since I wasn't familiar with libraries like react-query and zustand yet, I asked another front developer to focus on the screen implementation + backend API, and I was in charge of the screen implementation + deployment environment for the front-end stage.
 
-As we continued to develop, we noticed that our service kept re-rendering every few seconds.
-I noticed the problem at around 4am and worked on it for about 2 hours, until I realized that our service was running in development mode.
-I thought this was the problem and wanted to change it to production mode, but I didn't understand Crampoline, so I asked my mentors for help.
-My objective was simple. Our service was developed with vite, and I wanted to change it from running in development mode to running in production mode.
-Eventually, with the help of my mentors, I was able to solve the problem and no more rendering occurred. The problem was as follows
+i noticed that our deployed service was constantly re-rendering every few seconds. I noticed the problem around 4am, and after working on it for about 2 hours, I realized that our service was running in development mode.
+i realized that this was the problem and wanted to change it to production mode, but I didn't understand the crampoline (deployment environment), so I asked my mentors for help.
+my intentions were simple. the service was developed with VITE and I wanted to change the service, which was originally running in development mode, to run in production mode. here's how it happened
 
-The difficulty of deploying with a crampoline meant that we had to find a way to do something other than spinning up a static server with nginx, which is what we originally wanted to do.
-So the backend guy asked his mentor for help, and in the process we ended up spinning up the frontend server in development mode.
-This wouldn't have happened if we had added a script in the package.json that would run in a more intuitive production mode, such as `start` instead of `preview`.
-This was a good reminder of the importance of abstraction. Somehow, once I solved the problem, I was able to focus on other development.
+the backend developer was not familiar with crampoline and had difficulty deploying it, so we had to find another way to spin up a static server with nginx, which is what we originally wanted to do.
+so the backend guy asked his mentor for help, and that's how we ended up spinning up the frontend code in development mode (e.g. `pnpm dev`) instead of the logic of serving static files with nginx after the existing static build.
+ vITE has a `preview` command to serve static files into production. it occurred to me that this wouldn't have happened if I had added a more intuitive script to the `package.json` `script` that would run into production, such as `start` instead of `preview`. It was a good reminder of the importance of abstraction.
 
-In the meantime, the organizers and designers were preparing for the presentation. I apologized to the organizers and designers for not being able to participate much in the presentation preparation process.
-It was almost 10 o'clock the next day, and I had to go back to the hotel to pack my things before 11 o'clock.
+in the meantime, the planners and designers were preparing for the presentation, and I apologize to them for not being able to participate much in the process.
+by 10 o'clock the next day, the presentation preparation and development were finalized.
 
----
-
-
-Seongsan Sunrise Peak on Day 3 with the team.
+seongsan Sunrise Peak, which we visited during the hackathon.
+and a photo with my teammates.
 
 | ![성산일출봉](./image6.webp) | ![team](./team.webp)
-| ----------------------- | -------------------- |
-
-
+| ---------------------------- | -------------------- |
 
 ## Day 4
 
-#### Hackathon announcement
+day 4 was the hackathon announcements and awards.
 
-We pulled an all-nighter and announced our service "[Hey, Grandma]" (https://github.com/ddol-mang/hey-oldlady).
+### Hackathon announcement
+
+so we pulled an all-nighter and announced "[Hey, Grandma]" (https://github.com/ddol-mang/hey-oldlady).
 
 ![Hey, old lady](./image5.webp)
 
-Our presentation strategy was to appeal to the emotions of parent-child separation.
-We presented the problem through news and statistics and introduced a service to solve it.
+our pitch strategy was to appeal to the emotions of parent-child separation.
+we presented the problem through news and statistics and introduced a service to solve it.
 
-However, in the presentation feedback, you raised the question of whether the features and problem awareness that we touted were **actually needed by users**.
-We thought about it a lot, but we didn't feel like we had done a good enough job of explaining our logic.
-
-But I knew that our service was focused on the user experience, the keyword being **aging**. And I think it was meaningful to focus on a simple user flow to address this.
-I was proud of our team for coming up with this in such a short time.
+however, in the presentation feedback, you raised the question of whether the features and problem awareness we touted were **actually needed by users**.
+we thought about this a lot, but we were disappointed that we didn't create enough logic to explain it.
+however, we really enjoyed the fact that our service focused on user experience and **aging** and focused on a simple user flow to solve it.
 
 ## Other
 
-True to the values of Goormtone, I was able to experience and learn a lot in a very short time.
+it was a great time to experience and learn so much in such a short period of time, true to the values of Goormtone.
 
-It was my first hackathon, so I had a lot of inexperience, but luckily I met a great team and had a great time making memories together.
-We were so immersed in the development that we forgot to sleep at night, and we learned a lot in the process. I couldn't have done it without my team.
-The first hackathon buttoned up so well that I can't wait to participate in the next one.
+it was my first hackathon, so there were a lot of unknowns, but I met some great teammates and had a great time building memories together.
+we were so immersed in the development that we forgot we had to stay up all night, and we learned a lot in the process.
+personally, the first hackathon buttoned me up so well that I'm eager to participate in other hackathons.
 
-There are many reasons to participate in a hackathon, but I think it comes down to the experience.
-The process of intensely thinking and developing ideas with my teammates is pure fun. This fact alone makes it worthwhile.
-So if you're thinking about participating in a hackathon, don't hesitate to do so.
+there are many reasons to participate in a hackathon, but I think it all boils down to the **experience**. the sheer enjoyment of the process of intensely thinking through and developing ideas with my teammates at a goormathon is enough to make it worthwhile for me.
 
-Networking with other cool people is a bonus.
+so if you're on the fence about a hackathon, don't hesitate to join one.
+the networking with other cool people is a bonus.
 
-[^self-pr-book]: [The 18-Second Self-Pitch] (https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=94177413)
+[^self-pr-book]: [The 18-Second Self-Pitch](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=94177413)
+[^1]: [Immersion](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=503603)
+	
