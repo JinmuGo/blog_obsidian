@@ -63,10 +63,10 @@ here are the key events for each day
 
 | **Day 1** |                                    **Highlighted Events**                                     |
 | :-------: | :-------------------------------------------------------------------------------------------: |
-| **Day 1** | - [[#Hackathon Lecture]]<br/>- 3 minutes [[#Self PR]] <br />-[[#Ideation Topic Presentation]] |
-| **Day 2** |      - [[#2min IDEATION]]<br/>- [[#Team Building]]<br/>- [[#Beer Party]]<br/>- Hackathon      |
+| **Day 1** | - Hackathon Lecture<br/>- 3 minutes Self PR <br />-Ideation Topic Presentation |
+| **Day 2** |      - 2min IDEATION<br/>- Team Building<br/>- Beer Party<br/>- Hackathon      |
 | **Day 3** |                                    - Hackathon in progress                                    |
-| **Day 4** |              - [[#Hackathon Presentation]]<br/>- Results Announcement and Awards              |
+| **Day 4** |              - Hackathon Presentation<br/>- Results Announcement and Awards              |
 
 ### Day 0
 
@@ -85,11 +85,11 @@ along those lines, I wrote it in a way that introduced what the listener could g
 
 below is the bio page I wrote.
 
-![[bio.png]]
+![bio.png](./bio.png)
 after we finished our bio pages and scripts, we went to bed.
 ## Day 1
 
-day 1 consisted of [[#Hackathon Lectures]] and presentations on the topics of [[#Self PR]], [[#Identification]] topics were presented.
+day 1 consisted of Hackathon Lectures and presentations on the topics of Self PR, Identification topics were presented.
 
 ### Hackathon Lecture
  
@@ -151,7 +151,7 @@ this lesson is said to be based on Chiksent Mihai's book Immersion [^1], which y
 at the end of Day 1, we had our foundation theme presentation.
 the theme for this 12th edition was Aging.
 
-when I [[#applied]] for a job, I took it a step further by presenting services related to aging and created a PPT.
+when I applied for a job, I took it a step further by presenting services related to aging and created a PPT.
 
 
 ### Wrap up Day 1
@@ -164,7 +164,7 @@ on Day 1, I went for a walk with my teammates in the middle of the day, and in t
 ## Day 2
 
 on Day 2, teams will present their ideas on the previous day's ideation topic, "Aging"
-[[2-minute ideation time]], [[#team building]], and [[#beer party]]
+[[2-minute ideation time, team building, and beer party
 
 ### 2 minutes IDEATION
 
