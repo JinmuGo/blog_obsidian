@@ -1,0 +1,14 @@
+name: Trigger A's Workflow
+
+on: [push]
+
+jobs:
+  trigger-parent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger A's workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository: jinmugo/jinmu.me
+          event-type: obsidian-updated
