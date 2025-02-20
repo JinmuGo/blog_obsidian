@@ -85,7 +85,7 @@ along those lines, I wrote it in a way that introduced what the listener could g
 
 below is the bio page I wrote.
 
-![[About Me Page.png]]
+![[bio.png]]
 after we finished our bio pages and scripts, we went to bed.
 ## Day 1
 
