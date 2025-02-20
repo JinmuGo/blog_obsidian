@@ -61,12 +61,12 @@ i received an acceptance email 4 days after submitting and was able to participa
 ## Schedule
 here are the key events for each day
 
-| **Day 1** |                                    **Highlighted Events**                                     |
-| :-------: | :-------------------------------------------------------------------------------------------: |
-| **Day 1** | - Hackathon Lecture<br/>- 3 minutes Self PR <br />-Ideation Topic Presentation |
-| **Day 2** |      - 2min IDEATION<br/>- Team Building<br/>- Beer Party<br/>- Hackathon      |
-| **Day 3** |                                    - Hackathon in progress                                    |
-| **Day 4** |              - Hackathon Presentation<br/>- Results Announcement and Awards              |
+| **Day 1** |                      **Highlighted Events**                       |
+| :-------: | :---------------------------------------------------------------: |
+| **Day 1** | Hackathon Lecture, 3 minutes Self PR, Ideation Topic Presentation |
+| **Day 2** |             2min IDEATION, Team Building, Beer Party              |
+| **Day 3** |                       Hackathon in progress                       |
+| **Day 4** |      Hackathon Presentation, Results Announcement and Awards      |
 
 ### Day 0
 
