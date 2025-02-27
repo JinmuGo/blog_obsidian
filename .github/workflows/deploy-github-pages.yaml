@@ -1,6 +1,10 @@
 name: Trigger A's Workflow
 
-on: [push]
+on:
+    push:
+        branches: ["main"]
+
+    workflow_dispatch:
 
 jobs:
   trigger-parent:
