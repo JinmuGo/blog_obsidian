@@ -1,7 +1,6 @@
+a [YouTube video](https://youtu.be/cpEeqACsF_Q?si=PWDXGamHLR4c5yfD) I stumbled upon changed the course of my life.
+realizing that he could communicate with the world through programming, he decided to become a programmer.
 
-a chance [YouTube video](https://youtu.be/cpEeqACsF_Q?si=PWDXGamHLR4c5yfD) changed the course of his life. he realized that he could communicate with the world through programming and decided to become a programmer.
-
-the name 撫 (nothing to touch) is made by combining 手 (number of hands) and 無 (nothing), which means "hand".
-it comes from the meaning of stroking the shapeless things (heart, soul) with your hands to make them sink.
-just like the name, I want to live my life by touching people's hearts.
-
+the name 撫 (nothing to touch) was created by combining 手 (hand) and 無 (nothing).
+it comes from the meaning of touching the intangible things (heart, soul) with your hands to calm them down.
+just like the name, I want to live my life by touching people's hearts and holding them.
