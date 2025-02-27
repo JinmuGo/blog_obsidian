@@ -1,12 +1,13 @@
 ---
 title: 
-author: 
 publishedAt: <% moment().toISOString() %>
 draft: false
 mode: 
 description: 
 preview: 
-keywords:
+keywords: 
+updatedAt: 
+tags:
 ---
 <%*
 const getSubFolders = () => {
@@ -27,11 +28,7 @@ const category = await tp.system.suggester(subFolders, subFolders);
 
 if (title === null || category === null) return;
 
-if (category === "\_") {
-	const category = await tp.system.prompt("new Category");
-	await tp.file.move(`/${parentFolderPath}/${category}/${title}`);
-} else {
-	await tp.file.move(`${category}/${title}`);
-}
+await tp.file.move(`${category}/${title}/${title}`);
+
 await tp.file.rename(title);
 %>
