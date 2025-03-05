@@ -1,8 +1,8 @@
 ---
 title: 
-publishedAt: <% moment().toISOString() %>
+date: <% moment().toISOString() %>
 draft: false
-keywords: 
+tags: 
 updatedAt: 
 tags:
 ---

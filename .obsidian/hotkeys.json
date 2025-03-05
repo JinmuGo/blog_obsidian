@@ -184,5 +184,14 @@
       ],
       "key": "I"
     }
+  ],
+  "sort-frontmatter:sort": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

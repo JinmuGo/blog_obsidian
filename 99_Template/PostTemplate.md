@@ -1,11 +1,11 @@
 ---
 title: 
-publishedAt: <% moment().toISOString() %>
+date: <% moment().toISOString() %>
 draft: false
 mode: 
-description: 
-preview: 
-keywords: 
+summary: 
+images: 
+tags: 
 updatedAt: 
 tags:
 ---
