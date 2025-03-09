@@ -4,7 +4,9 @@ draft: true
 layout: PostBannerX
 summary: Obsidian과 nextjs 통합하여 사용하기
 title: Obsidian + Next.js
-tags: 
+tags:
+  - obsidian
+  - nextjs
 lastmod: 
 category: develop
 ---
