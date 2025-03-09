@@ -1,13 +1,14 @@
 ---
 date: '2023-05-16T00:00:00.000Z'
 draft: false
-images: /banner/insight/book-and-movie.jpeg
+banner: /banner/insight/book-and-movie.jpeg
 layout: PostBannerX
 summary: 책과 영화에 대해
 title: 책과 영화
 tags:
   - 이동진
   - 책과 영화
+category: think
 ---
 
 > [!quote]

@@ -1,13 +1,14 @@
 ---
 date: '2022-09-12T00:00:00.000Z'
 draft: false
-images: /banner/book/process-economy.jpeg
+banner: /banner/book/process-economy.jpeg
 layout: PostBannerY
 summary: <프로세스 이코노미>를 읽고
 title: 프로세스 이코노미
 tags:
   - 오바라 가즈히로
   - 프로세스 이코노미
+category: book
 ---
 ## 더 이상 품질만으로는 차별성을 갖기 어렵다.
 

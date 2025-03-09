@@ -1,14 +1,16 @@
 ---
 draft: false
 date: '2023-07-28T00:00:00.000Z'
-images: /banner/movie/rashomon.jpeg
+banner: /banner/movie/rashomon.jpeg
 layout: PostBannerY
 summary: 나생문을 보고나서
 title: 그럼에도, 우리는 믿어야 한다
 tags:
   - 구로사와 아키라
   - 나생문
+category: movie
 ---
+
 > [!quote] 구로사와 아키라
 >   인간은 자신에 대해 정직해질 수 없다. 자기 자신을 얘기할 때면 언제나 윤색해진다. 이 영화는 그러한,
 >   즉 자신을 실제보다 더 나은 사람으로 보이기 위해 거짓말을 하지 않고는 못배기는 인간을 그리고 있다.

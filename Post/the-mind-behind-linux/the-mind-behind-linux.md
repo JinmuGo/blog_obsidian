@@ -1,7 +1,7 @@
 ---
 date: '2024-04-19T00:00:00.000Z'
 draft: false
-images: /banner/insight/the-mind-behind-linux.jpeg
+banner: /banner/insight/the-mind-behind-linux.jpeg
 layout: PostBannerX
 summary: 오픈 소스에 대하여
 title: The mind behind linux
@@ -9,6 +9,7 @@ tags:
   - 리눅스
   - 리누스 토르발스
   - 오픈소스
+category: develop
 ---
 
 https://youtu.be/o8NPllzkFhE?si=iX4O4Z0duW7-5Q7s

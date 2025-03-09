@@ -4,7 +4,7 @@ date: <% moment().toISOString() %>
 draft: false
 mode: 
 summary: 
-images: 
+banner: 
 tags: 
 updatedAt: 
 tags:

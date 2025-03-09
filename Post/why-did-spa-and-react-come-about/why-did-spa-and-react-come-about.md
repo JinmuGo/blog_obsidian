@@ -1,7 +1,7 @@
 ---
 date: '2024-11-29T02:40:24.461Z'
 draft: true
-images: /banner/develop/why-did-spa-and-react-come-about.jpeg
+banner: /banner/develop/why-did-spa-and-react-come-about.jpeg
 lastmod: '2024-11-29T02:40:24.461Z'
 layout: PostBannerX
 summary: SPA와 React에 대한 이해
@@ -9,6 +9,7 @@ title: SPA와 React는 왜 등장했을까?
 tags:
   - SPA
   - react
+category: develop
 ---
 
 최근 웹서핑을 할 때의 기억을 한번 떠올려 볼까요? 웹사이트에서 페이지를 이동할 때 새로고침이 되는 것을 본 적이 마지막으로 언제였는지 기억나시나요?

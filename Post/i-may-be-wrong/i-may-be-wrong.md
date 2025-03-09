@@ -1,13 +1,14 @@
 ---
 date: '2024-07-19T12:45:44.759Z'
 draft: true
-images: /banner/book/i-may-be-wrong.jpeg
+banner: /banner/book/i-may-be-wrong.jpeg
 lastmod: '2024-07-19T12:45:44.759Z'
 layout: PostBannerY
 summary: 숲속의 현자가 전하는 마지막 인생수업
 title: 내가 틀릴 수도 있습니다.
 tags:
   - 책
+category: book
 ---
 
 ## 나는 떠오르는 생각을 모두 믿고 있었다.

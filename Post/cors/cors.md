@@ -1,12 +1,13 @@
 ---
 date: '2025-02-24T07:29:55.889Z'
 draft: true
-images: Null
+banner: Null
 mode: Null
 summary: Null
 title: Null
 tags: Null
 updatedAt: Null
+category: develop
 ---
 ```embed
 title: "Fetching"

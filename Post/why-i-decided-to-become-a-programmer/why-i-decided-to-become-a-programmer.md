@@ -1,12 +1,13 @@
 ---
 draft: true
 date: '2025-01-21T15:00:00.000Z'
-images: /banner/movie/midsommar.jpeg
+banner: /banner/movie/midsommar.jpeg
 layout: PostBannerX
 summary: 프로그래머가 되기 까지의 과정
 title: 나는 왜 프로그래머가 되기로 하였는가
 tags:
   - 프로그래머
+category: develop
 ---
 
   태양은 매일 뜨고 지고 시간은 끊임없이 흘러갑니다. 흘러가는 시간들이 돌아오지 않는다는 사실을 알기에 매 순간을 감사하며 지내기 위해 노력하고 있습니다.

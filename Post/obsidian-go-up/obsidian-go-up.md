@@ -1,12 +1,13 @@
 ---
 date: '2024-07-07T02:40:24.461Z'
 draft: true
-images: /banner/develop/obsidian-go-up.jpeg
+banner: /banner/develop/obsidian-go-up.jpeg
 layout: PostBannerX
 summary: Obsidian Plugin을 처음 개발 해보았던 기록
 title: obsidian plugin 개발기
 tags:
   - obsidian
+category: develop
 ---
 
 처음 만들어본 Obsidian 플러그인입니다.

@@ -7,6 +7,7 @@ tags:
   - 노르웨이의 숲
   - 무라카미 하루키
 updatedAt: Null
+category: book
 ---
 
 ![[KakaoTalk_20190317_234223142_27.jpg]]

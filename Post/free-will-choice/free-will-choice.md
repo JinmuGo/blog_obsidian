@@ -1,13 +1,14 @@
 ---
 date: '2022-09-25T00:00:00.000Z'
 draft: true
-images: /banner/book/free-will-choice.jpeg
+banner: /banner/book/free-will-choice.jpeg
 layout: PostBannerX
 summary: 우리가 선택하는 것은 정말 우리의 자유의지일까?
 title: 자유의지, 선택
 tags:
   - 무라카미 하루키
   - 색채가 없는 다자키 쓰크루와 그가 순례를 떠난해
+category: think
 ---
 
 > [!note]
