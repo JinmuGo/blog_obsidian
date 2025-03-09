@@ -1,3 +1,12 @@
+---
+
+name: Jinmu Go
+
+bio: Reader & Writer, Visual Thinker
+
+avatar: /static/images/avatar.webp
+
+---
 우연히 접한 [유튜브 영상](https://youtu.be/cpEeqACsF_Q?si=PWDXGamHLR4c5yfD)한 편으로 인생의 방향을 틀었다. 
 프로그래밍을 통해 전 세계와 소통할 수 있다는 사실을 깨닫고, 프로그래머가 되기로 하였다. 
 
