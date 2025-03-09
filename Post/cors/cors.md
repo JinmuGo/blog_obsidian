@@ -1,12 +1,11 @@
 ---
 date: '2025-02-24T07:29:55.889Z'
 draft: true
-banner: Null
 mode: Null
 summary: Null
 title: Null
 tags: Null
-updatedAt: Null
+lastmod: Null
 category: develop
 ---
 ```embed

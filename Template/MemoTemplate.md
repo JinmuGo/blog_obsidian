@@ -3,7 +3,7 @@ title:
 date: <% moment().toISOString() %>
 draft: false
 tags: 
-updatedAt: 
+lastmod: 
 tags:
 ---
 <%*

@@ -6,7 +6,7 @@ title: 우리들은 지금 어디에 있는가
 tags:
   - 노르웨이의 숲
   - 무라카미 하루키
-updatedAt: Null
+lastmod: Null
 category: book
 ---
 

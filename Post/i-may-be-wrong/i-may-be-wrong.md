@@ -1,7 +1,6 @@
 ---
 date: '2024-07-19T12:45:44.759Z'
 draft: true
-banner: /banner/book/i-may-be-wrong.jpeg
 lastmod: '2024-07-19T12:45:44.759Z'
 layout: PostBannerY
 summary: 숲속의 현자가 전하는 마지막 인생수업

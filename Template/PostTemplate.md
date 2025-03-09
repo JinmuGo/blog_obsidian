@@ -4,9 +4,8 @@ date: <% moment().toISOString() %>
 draft: false
 mode: 
 summary: 
-banner: 
 tags: 
-updatedAt: 
+lastmod: 
 tags:
 ---
 <%*

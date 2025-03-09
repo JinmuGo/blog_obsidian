@@ -1,12 +1,11 @@
 ---
-date: '2025-02-21T06:51:01.673Z'
+date: 2025-02-21T06:51:01.673Z
 draft: true
-banner: Null
 layout: PostBannerX
 summary: Obsidian과 nextjs 통합하여 사용하기
 title: Obsidian + Next.js
-tags: Null
-updatedAt: Null
+tags: 
+lastmod: 
 category: develop
 ---
 

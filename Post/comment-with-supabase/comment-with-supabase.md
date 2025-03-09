@@ -1,7 +1,6 @@
 ---
 draft: true
 date: '2025-01-24T08:23:58.015Z'
-banner: /banner/develop/comment-with-supabase.jpeg
 layout: PostBannerX
 summary: giscus말고 직접 댓글 기능을 구현한 이유
 title: 개인 블로그 댓글기능 추가하기 (with Supabase)

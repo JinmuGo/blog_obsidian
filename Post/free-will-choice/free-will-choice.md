@@ -1,7 +1,6 @@
 ---
 date: '2022-09-25T00:00:00.000Z'
 draft: true
-banner: /banner/book/free-will-choice.jpeg
 layout: PostBannerX
 summary: 우리가 선택하는 것은 정말 우리의 자유의지일까?
 title: 자유의지, 선택

@@ -1,7 +1,6 @@
 ---
 date: '2024-11-29T02:40:24.461Z'
 draft: true
-banner: /banner/develop/why-did-spa-and-react-come-about.jpeg
 lastmod: '2024-11-29T02:40:24.461Z'
 layout: PostBannerX
 summary: SPA와 React에 대한 이해

@@ -1,7 +1,6 @@
 ---
 draft: true
 date: '2025-01-21T15:00:00.000Z'
-banner: /banner/movie/midsommar.jpeg
 layout: PostBannerX
 summary: 프로그래머가 되기 까지의 과정
 title: 나는 왜 프로그래머가 되기로 하였는가

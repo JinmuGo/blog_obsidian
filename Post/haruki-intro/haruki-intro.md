@@ -1,7 +1,6 @@
 ---
-date: '2022-09-14T00:00:00.000Z'
+date: "2022-09-14T00:00:00.000Z"
 draft: true
-banner: /banner/book/haruki-intro.jpeg
 layout: PostBannerX
 summary: 제가 가장 좋아하는 작가인 무라카미 하루키를 소개합니다.
 title: 무라카미 하루키에 대해

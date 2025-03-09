@@ -1,7 +1,6 @@
 ---
 date: '2024-12-20T02:40:24.461Z'
 draft: false
-banner: /banner/experience/12th-9oormthon.jpeg
 lastmod: '2024-12-20T02:40:24.461Z'
 layout: PostBannerX
 summary: 구름톤(9oormthon) 12기 프론트 개발자의 참가 후기

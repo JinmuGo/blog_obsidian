@@ -1,7 +1,6 @@
 ---
 draft: false
 date: '2023-07-28T00:00:00.000Z'
-banner: /banner/movie/rashomon.jpeg
 layout: PostBannerY
 summary: 나생문을 보고나서
 title: 그럼에도, 우리는 믿어야 한다
