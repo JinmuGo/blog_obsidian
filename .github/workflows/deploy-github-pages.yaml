@@ -1,18 +1,16 @@
 name: Trigger A's Workflow
 
 on:
-    push:
-        branches: ["main"]
+  push:
+    branches: ["main"]
 
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-  trigger-parent:
+  post_request:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger A's workflow
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{ secrets.TOKEN }}
-          repository: jinmugo/jinmu.me
-          event-type: obsidian-updated
+      - name: Send POST request with curl
+        run: |
+          curl -X POST \
+            ${{ secrets.WEBHOOK_URL }}
