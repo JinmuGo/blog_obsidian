@@ -14,3 +14,8 @@ jobs:
         run: |
           curl -X POST \
             ${{ secrets.WEBHOOK_URL }}
+          
+      - name: Send POST request with curl to AWS
+        run: |
+          curl -X POST -d {} \
+            "${{ secrets.WEBHOOK_URL_AWS }}" -H "Content-Type: application/json"
