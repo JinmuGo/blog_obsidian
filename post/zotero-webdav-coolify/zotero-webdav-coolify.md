@@ -1,7 +1,7 @@
 ---
 title: Zotero-sync를 위한 WebDAV서버 배포하기 with Coolify
 date: 2025-03-25T04:46:34.380Z
-draft: true
+draft: false
 layout: PostBannerX
 summary: Coolify에 WebDAV 서버를 구축하고 여러 기기 간 문서 동기화를 구현한 경험.
 tags:
