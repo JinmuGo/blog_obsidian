@@ -100,7 +100,7 @@ behindProxy: false
 # The directory that will be able to be accessed by the users when connecting.
 # This directory will be used by users unless they have their own 'directory' defined.
 # Default is '.' (current directory).
-directory: .
+directory: /data
 
 # The default permissions for users. This is a case insensitive option. Possible
 # permissions: C (Create), R (Read), U (Update), D (Delete). You can combine multiple
