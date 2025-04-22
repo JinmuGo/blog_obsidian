@@ -1,5 +1,5 @@
 ---
-title: Zotero-sync를 위한 WebDAV서버 배포하기 with Coolify
+title: Zotero 동기화를 위한 WebDAV서버 배포하기 with Coolify
 date: 2025-03-25T04:46:34.380Z
 draft: false
 layout: PostBannerX
