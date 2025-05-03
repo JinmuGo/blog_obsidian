@@ -109,7 +109,7 @@ postgresDB 하나를 준비합니다. vercel에 있는 DB Provider를 사용하�
 
 이렇게 DB를 노출하는데에 성공했다면 `psql`같은 client tool로 db접근을 시도합니다. postgres의 URI는 아래와 같습니다.
 
-```
+```text
 postgres://{POSTGRES_USERNAME}:{SERVICE_PASSWORD_POSTGRES}@{YOUR_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}
 ```
 
@@ -225,7 +225,7 @@ uploadthing은 댓글에서 이미지를 사용하기 위해 필요합니다. fr
 
 이제 Route Handler에서의 설정은 모두 끝났습니다. 코드들은 모두 official repo에서 가져오고. 저희가 해야할 것은 env설정 밖에 없었습니다. 설정한 env는 모두 6개입니다.
 
-```
+```text
 DATABASE_URL=
 GITHUB_ID=
 GITHUB_SECRET=
