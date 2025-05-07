@@ -2,7 +2,7 @@
 
 name: Jinmu Go
 
-bio: Reader & Writer, Visual Thinker
+bio: A Smooth Sea Never Made a Skilled Sailor
 
 avatar: /static/images/avatar.webp
 

@@ -5,7 +5,6 @@ draft: false
 layout: PostBannerX
 summary: 검은 잔과 흰 연기가 빚어내는 철학적 수다
 tags:
-  - movie
   - coffee
   - cigarettes
   - Nikola-Tesla
