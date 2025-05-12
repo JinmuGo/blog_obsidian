@@ -28,7 +28,6 @@ fuma-nama님의 [fumadocs](https://github.com/fuma-nama/fumadocs)라는 프로�
 
 바로 [fuma-comment](https://github.com/fuma-nama/fuma-comment)라는 프로젝트였는데요. 설명을 보니 아래와 같이 적혀 있었습니다.
 
-> [!note] fuma-comment
 > user friendly, beautiful comment area to your blog
 
 블록에 댓글 기능을 추가할 수 있는 프로젝트였죠. 저는 이거다! 싶었습니다. 왜냐하면 최근 제 블로그 댓글 기능에 고민이 많았거든요...
