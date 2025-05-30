@@ -2,7 +2,7 @@
 date: '2022-09-12T00:00:00.000Z'
 draft: false
 layout: PostBannerY
-summary: <프로세스 이코노미>를 읽고
+summary: 프로세스 이코노미를 읽고
 title: 프로세스 이코노미
 tags:
   - 오바라 가즈히로
