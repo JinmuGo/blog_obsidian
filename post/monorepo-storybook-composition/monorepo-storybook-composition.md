@@ -77,7 +77,7 @@ monorepo/
 
 ### Storybook Composition?
 
-먼저, Composition이란 **하나의 Storybook에서 외부에 존재하는 다른 Storybook들을 불러와 하나의 UI로 통합해 보여주는 기능**입니다. 각 Storybook은 독립적으로 **실행되고** 있어야 합니다. 네ㅁ, 실행되고 있어야 해요. production환경에서 빌드된 `storybook-static` 폴더를 제공해주는 서버가 있어야 한다는 의미입니다. 저희 서비스에서는 이 역할을  `chromatic`이라는 서비스가 담당합니다.
+먼저, Composition이란 **하나의 Storybook에서 외부에 존재하는 다른 Storybook들을 불러와 하나의 UI로 통합해 보여주는 기능**입니다. 각 Storybook은 독립적으로 **실행되고** 있어야 합니다. 네ㅁ, 실행되고 있어야 해요. production환경에서 빌드된 `storybook-static` 폴더를 제공해주는 서버가 있어야 한다는 의미입니다. 저희 서비스에서는 이 역할을 `chromatic`이라는 서비스가 담당합니다.
 
 ```ts
 import type { StorybookConfig } from "@storybook/react-vite";
@@ -131,11 +131,11 @@ pnpm --filter apps/storybook storybook
 ```
 
 이렇게 세 개의 스토리북을 병렬로 실행하면, `apps/storybook`에서 통합된 UI를 한 번에 확인할 수 있습니다. 각 패키지의 개발 흐름은 그대로 유지하면서도, 전체 프로젝트의 UI 흐름을 확인하는 중앙 Storybook 허브가 된 셈이죠.
-*물론 turborepo나 다른 cli tool로도 병렬실행해서 사용할 수 있습니다.*
+_물론 turborepo나 다른 cli tool로도 병렬실행해서 사용할 수 있습니다._
 
 ### Storyboook Ref?
 
-`refs`는 **외부에 존재하는 Storybook 인스턴스를 현재 Storybook의 왼쪽 탐색 패널(Navigation Pane)에 통합하여 보여주는 기능**입니다. 즉, 이 옵션은 _로컬이든 원격이든 Storybook의 JSON 메타 정보를 불러와 구성 요소 목록을 병합_합니다.
+`refs`는 **외부에 존재하는 Storybook 인스턴스를 현재 Storybook의 왼쪽 탐색 패널(Navigation Pane)에 통합하여 보여주는 기능**입니다. 즉, 이 옵션은 *로컬이든 원격이든 Storybook의 JSON 메타 정보를 불러와 구성 요소 목록을 병합*합니다.
 
 - `title`: 탐색 패널에 표시될 이름입니다.
 - `url`: 외부 Storybook 인스턴스의 URL입니다. 보통은 해당 패키지의 `storybook dev` 주소(`localhost:포트`)이거나, 배포된 정적 Storybook의 주소입니다.
@@ -144,7 +144,7 @@ pnpm --filter apps/storybook storybook
 
 > [!seealso]
 > 🧠 참고로, 내부적으로는 `url` 뒤에 `/index.json`로 접근하여 메타 정보를 파싱합니다.  
-즉, `http://localhost:6006/index.json`로 접근 가능한 상태여야 Composition이 동작합니다.
+> 즉, `http://localhost:6006/index.json`로 접근 가능한 상태여야 Composition이 동작합니다.
 
 ```text
 apps/storybook (ref viewer)
@@ -155,14 +155,14 @@ apps/storybook (ref viewer)
 
 이 구조는 Storybook이 실제 컴포넌트 코드를 불러오는 것이 아니라, **iframe으로 해당 스토리를 “프록시처럼" 보여주는 구조**이기 때문에 다음과 같은 특징이 있습니다:
 
-| 항목              | 설명                                                   |
-| --------------- | ---------------------------------------------------- |
-| 🔧 빌드 방식 분리     | 각 패키지의 Storybook을 독립적으로 빌드 및 배포 가능                   |
-| 📦 의존성 격리       | `apps/storybook`은 실제 코드나 컴포넌트 의존성이 없음                |
-| 🚀 CI 배포 확장 용이  | 각 패키지의 Storybook을 별도로 호스팅하고, Composition은 정적으로 참조 가능 |
-| 👀 페이지 초기 로딩 빠름 | 초기 Composition Storybook을 빠르게 로드                     |
+| 항목                     | 설명                                                                        |
+| ------------------------ | --------------------------------------------------------------------------- |
+| 🔧 빌드 방식 분리        | 각 패키지의 Storybook을 독립적으로 빌드 및 배포 가능                        |
+| 📦 의존성 격리           | `apps/storybook`은 실제 코드나 컴포넌트 의존성이 없음                       |
+| 🚀 CI 배포 확장 용이     | 각 패키지의 Storybook을 별도로 호스팅하고, Composition은 정적으로 참조 가능 |
+| 👀 페이지 초기 로딩 빠름 | 초기 Composition Storybook을 빠르게 로드                                    |
 
-이렇게 기본적으로 Storybook Composition을 설정할 수 있었습니다. 하지만,  **예상치 못한 문제가 하나 발생**했습니다.
+이렇게 기본적으로 Storybook Composition을 설정할 수 있었습니다. 하지만, **예상치 못한 문제가 하나 발생**했습니다.
 
 ### 로컬 환경에서 CORS 에러 발생
 
@@ -234,7 +234,7 @@ refs: {
 
 처음에는 그냥 `packages/ui`에만 Storybook을 적용하면 충분하다고 생각했습니다. 실제 서비스에서 사용하는 페이지들을 굳이 Storybook으로 보지 않아도 될 줄 알았거든요. 그런데 프로젝트가 커지고, 컴포넌트가 어디서 어떻게 쓰이는지 확인하려고 할 때마다 코드 열고 브라우저 띄우고 로그 찍고... 생각보다 번거로운 일들이 많아졌습니다. 그리고 저만 보는 것이 아닌 다른 팀원들도 볼 경우가 생겨서 더더욱 필요성을 절감하였습니다.
 그렇게 호기롭게 `apps/web`까지 Storybook을 확장해보려 했지만, 생각보다 쉽지 않았습니다. 게다가 `apps/storybook` 하나에서 모든 걸 다 처리하려 하니, 점점 구조도 복잡해지고 유지보수도 어려워졌죠.
-그래서  각 패키지별로 Storybook을 따로 두고, `apps/storybook`은 그걸 조립만 하는 역할로 두기로 방향을 바꿨습니다.
+그래서 각 패키지별로 Storybook을 따로 두고, `apps/storybook`은 그걸 조립만 하는 역할로 두기로 방향을 바꿨습니다.
 
 그 결과, 지금은:
 

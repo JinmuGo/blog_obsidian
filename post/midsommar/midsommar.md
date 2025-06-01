@@ -1,6 +1,6 @@
 ---
 draft: false
-date: '2024-04-09T00:00:00.000Z'
+date: "2024-04-09T00:00:00.000Z"
 layout: PostBannerY
 summary: 미드소마 감상문
 title: 기지와 미지, 앎에 대한 우리의 자세에 대해

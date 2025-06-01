@@ -216,7 +216,7 @@ NEXTAUTH_SECRET=
 
 ### Uploadthing
 
-uploadthing은 댓글에서 이미지를 사용하기 위해 필요합니다. free tier 에서는 2gb를 기본으로 제공하고 있습니다. 간단한 블로그에서 사용할 만큼은 되는 것 같아서 우선 사용하고 있습니다. 만일 더 필요하게 된다면. 다른 방법을 알아봐야겠죠. S3로 호환이 되니 cloudflare R2를 사용해도 되겠네요. 
+uploadthing은 댓글에서 이미지를 사용하기 위해 필요합니다. free tier 에서는 2gb를 기본으로 제공하고 있습니다. 간단한 블로그에서 사용할 만큼은 되는 것 같아서 우선 사용하고 있습니다. 만일 더 필요하게 된다면. 다른 방법을 알아봐야겠죠. S3로 호환이 되니 cloudflare R2를 사용해도 되겠네요.
 
 아무튼, [홈페이지](https://uploadthing.com/)에서 회원가입 및 로그인을 해주신다음 `Dashboard -> API Key ` 에서 `UPLOADTHING_TOKEN`을 그대로 .env에 옮겨주시면됩니다.
 
@@ -274,22 +274,19 @@ description: "user friendly, beautiful comment area to your blog - fuma-nama/fum
 url: "https://github.com/fuma-nama/fuma-comment/blob/main/apps/docs/app/(demo)/page.client.tsx"
 ```
 
-그리곤 적용하고 싶은 nextjs 페이지(`page.tsx`), 레이아웃(`layout.tsx`)또는 컴포넌트에 `import`하면 끝입니다. 
+그리곤 적용하고 싶은 nextjs 페이지(`page.tsx`), 레이아웃(`layout.tsx`)또는 컴포넌트에 `import`하면 끝입니다.
 
 ```ts
 <CommentsWithAuth page={slug} />
 ```
 
-page props에는 각 페이지의  id또는 slug를 설정하면 페이지 별로 댓글창을 설정할 수 있습니다. 만약 같은 댓글 영역을 쓰고 싶다면 page의 값을 똑같이 맞춰주면 되겠죠. 
-
+page props에는 각 페이지의 id또는 slug를 설정하면 페이지 별로 댓글창을 설정할 수 있습니다. 만약 같은 댓글 영역을 쓰고 싶다면 page의 값을 똑같이 맞춰주면 되겠죠.
 
 ## Outro
 
-이렇게 `fuma-comment`를 이용해서 댓글기능을 만들어봤습니다. 이렇게 간단하게 만들어 쓰기도 좋은데 커스텀할 수 있는 방안이 굉장히 무궁무진해서 더 유용한 것 같습니다. NextAuth, prisma, postgres DB에 대한 지식이 조금만 있어도 자신이 원하는대로 커스텀할 수 있다는 것이 이 프로젝트의 장점인 것 같습니다. 
+이렇게 `fuma-comment`를 이용해서 댓글기능을 만들어봤습니다. 이렇게 간단하게 만들어 쓰기도 좋은데 커스텀할 수 있는 방안이 굉장히 무궁무진해서 더 유용한 것 같습니다. NextAuth, prisma, postgres DB에 대한 지식이 조금만 있어도 자신이 원하는대로 커스텀할 수 있다는 것이 이 프로젝트의 장점인 것 같습니다.
 
-멋진 프로젝트를 만들어주신 [fuma-nama](https://github.com/fuma-nama)님에게도 감사의 말씀을 드리며, 이만 글을 마치겠습니다. 
+멋진 프로젝트를 만들어주신 [fuma-nama](https://github.com/fuma-nama)님에게도 감사의 말씀을 드리며, 이만 글을 마치겠습니다.
 
 > [!seealso]
-> 아마 글을 작성하면서 빠진 부분이나 부족한 부분이 있을 것으로 생각됩니다. 댓글이나 메일을 남겨주시면 최대한 빠른 시일내에 답변드리겠습니다. 감사합니다. 
-> 
-
+> 아마 글을 작성하면서 빠진 부분이나 부족한 부분이 있을 것으로 생각됩니다. 댓글이나 메일을 남겨주시면 최대한 빠른 시일내에 답변드리겠습니다. 감사합니다.

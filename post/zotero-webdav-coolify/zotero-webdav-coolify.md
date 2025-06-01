@@ -8,11 +8,12 @@ tags:
   - zotero
   - coolify
   - webdav
-lastmod: 
+lastmod:
 bannerOnlyText: true
 category: develop
 ---
-## Intro 
+
+## Intro
 
 저는 서지 관리 프로그램으로 오래전부터 [Zotero](https://www.zotero.org)를 사용해 왔습니다. 하이라이팅, 메모, 캡처 기능과 더불어서 Obsidian과 플러그인을 통해 Integration까지 되어서 관리할 수 있어 유용하게 사용하고 있죠. 게다가 이번 Zotero7 업데이트로 인해 UI가 더 예쁘게 바뀌었더군요. 관심 있는 분들은 이 [유튜브 채널](https://www.youtube.com/@brain.trinity/videos)이 도움이 많이 되니 한번 알아보시는 걸 추천 드립니다.
 
@@ -20,7 +21,7 @@ category: develop
 그렇게 Zotero를 사용하고 있던 와중. 문제가 하나 생겼습니다. 최근 영어 공부할 일이 생겨서 단어장을 pdf로 받아 평소처럼 Zotero에서 관리하고 있었는데, 이걸 갖고 있는 아이패드로도 이동하는 중에 보고 싶었습니다. 물론 다른 앱(good notes, files 등….)을 사용하면 되지만, 저는 무엇보다 하이라이팅과 메모, 기능을 사용하고 싶었고 한곳에서 관리하고 싶었습니다. 즉, 아이패드에서 했던 작업을 맥북, 휴대전화에서도 보고 싶었습니다. Zotero에서도 이런 기능을 제공합니다. [Zotero Storage](https://www.zotero.org/storage?id=storage)서비스를 이용하면 되는데, 이게 은근히 돈이 나갑니다. 공간 제한도 있고요.
 ![[eici5g.png]]
 
-그래서 다른 대안을 찾기 위해 [Zotero sync](https://www.zotero.org/support/sync#webdav)문서를 보던 중 WebDAV를 이용한 File Sync 항목을 보게 되었습니다. WebDAV 프로토콜을 지원하는 서버만 있다면, zotero sync기능을 사용할 수 있다는 글이 적혀있었죠. 저는 이 방법이다! 라고 생각하며 구현하기로 하였죠. 하지만 그전에 먼저 WebDAV가 무엇인지 알아야 했습니다. 
+그래서 다른 대안을 찾기 위해 [Zotero sync](https://www.zotero.org/support/sync#webdav)문서를 보던 중 WebDAV를 이용한 File Sync 항목을 보게 되었습니다. WebDAV 프로토콜을 지원하는 서버만 있다면, zotero sync기능을 사용할 수 있다는 글이 적혀있었죠. 저는 이 방법이다! 라고 생각하며 구현하기로 하였죠. 하지만 그전에 먼저 WebDAV가 무엇인지 알아야 했습니다.
 
 ## WebDAV
 
@@ -34,13 +35,13 @@ WebDAV(Web Distributed Authoring and Versioning)는 **HTTP 프로토콜을 확�
 ### HTTP 프로토콜을 확장한 프로토콜
 
 - **기존 HTTP 메소드 활용**: WebDAV는 HTTP의 GET, POST, PUT, DELETE 등 기존 메소드를 활용하면서, 파일 관리와 협업을 위한 새로운 메소드를 추가했습니다.
- - **PROPFIND**: 파일 및 디렉토리의 메타데이터 조회
- - **PROPPATCH**: 파일 속성 수정
- - **MKCOL**: 디렉토리 생성
- - **COPY**: 파일 복사
- - **MOVE**: 파일 이동
- - **LOCK/UNLOCK**: 파일 잠금 및 해제
- - **VERSION-CONTROL**: 버전 관리
+- **PROPFIND**: 파일 및 디렉토리의 메타데이터 조회
+- **PROPPATCH**: 파일 속성 수정
+- **MKCOL**: 디렉토리 생성
+- **COPY**: 파일 복사
+- **MOVE**: 파일 이동
+- **LOCK/UNLOCK**: 파일 잠금 및 해제
+- **VERSION-CONTROL**: 버전 관리
 - **XML 기반 데이터 교환**: WebDAV는 XML을 사용하여 파일 메타데이터를 교환합니다. 이는 파일 속성, 잠금 상태, 버전 정보 등을 효율적으로 관리할 수 있게 합니다.
 
 ### 원격 파일 협업 편집 및 관리
@@ -50,7 +51,7 @@ WebDAV(Web Distributed Authoring and Versioning)는 **HTTP 프로토콜을 확�
 - **네임스페이스 관리(COPY/MOVE)**: 서버 내 파일을 복사하거나 이동할 수 있습니다. 이는 파일 구조를 유지하면서 파일을 재배치할 때 유용합니다.
 - **버전 관리**: WebDAV는 파일의 버전을 관리할 수 있는 기능을 제공합니다. 이는 문서의 변경 이력을 추적하고, 이전 버전으로 되돌릴 수 있게 합니다.
 
-WebDAV에 대해 알아보니 왜 Zotero가 이 프로토콜을 통해 File Sync를 하는지 알 수 있었습니다. 문서 관리를 위한 메소드들이 적절하게 구현되어 있고 XML을 사용하여 필요한 정보만 주고받아 비교적 빠른 속도로 관리할 수 있었습니다. 이렇게 WebDAV에 대해 알아보았으니 이제 구현을 해봐야겠죠. 
+WebDAV에 대해 알아보니 왜 Zotero가 이 프로토콜을 통해 File Sync를 하는지 알 수 있었습니다. 문서 관리를 위한 메소드들이 적절하게 구현되어 있고 XML을 사용하여 필요한 정보만 주고받아 비교적 빠른 속도로 관리할 수 있었습니다. 이렇게 WebDAV에 대해 알아보았으니 이제 구현을 해봐야겠죠.
 
 ## WebDAV Server 구현
 
@@ -171,6 +172,7 @@ docker run \
 ```
 
 명령을 살펴보면
+
 1. 6060으로 컨테이너 내부와 hostOS의 port를 연결
 2. bind mount를 사용해서 현재 shell이 위치하고 있는 config.yml파일을 컨테이너 내부로 read only로 mount
 3. bind mount로 data folder를 mount
@@ -185,9 +187,9 @@ docker run \
 
 Coolify는 오픈 소스 및 셀프 호스팅 가능한 플랫폼으로, Heroku, Netlify, Vercel의 대안으로 사용됩니다. 사용자는 자신의 서버(VPS, Raspberry Pi, EC2, DigitalOcean, Linode, Hetzner 등) 다양한 서버에 리소스를 배포할 수 있습니다. **Docker와 호환되는 모든 서비스를 배포할 수 있으며**, 많은 원클릭 서비스가 제공됩니다.
 
-네, Docker와 호환되는 모든 서비스를 배포할 수 있습니다. WebDAV Server를 위한 모든 설정은 위에서 다루었으니 이걸 이제 coolify에 적용하면 됩니다. 
+네, Docker와 호환되는 모든 서비스를 배포할 수 있습니다. WebDAV Server를 위한 모든 설정은 위에서 다루었으니 이걸 이제 coolify에 적용하면 됩니다.
 
-coolify기본 셋팅이나 설정은 아래 링크를 참고하면 도움이 되실겁니다. 
+coolify기본 셋팅이나 설정은 아래 링크를 참고하면 도움이 되실겁니다.
 
 ```embed
 title: "Coolify Crash Course | Self Host 101 | Secure Set up"
@@ -202,10 +204,10 @@ url: "https://www.youtube.com/watch?v=taJlPG82Ucw&t=1005s"
 server를 선택하면 Dockerfile을 작성하는 폼이 나옵니다. 이전에 저희가 작성해 둔 Dockerfile을 넣어줍니다.
 ![[13v9b0.png]]
 
-
 그러면 프로젝트 설정하는 창이 나오는데 저희가 여기에서 설정할 것은 크게 두 가지입니다.
+
 1. [[#bind mount 설정]]
-2. [[# env user 설정 ]]
+2. [[# env user 설정]]
 
 ### bind mount 설정
 
@@ -220,7 +222,8 @@ bind mount 설정은 Persistant Storage Tab에서 할 수 있습니다.
 
 ![[n6j98d.png]]
 다음은 user env 설정입니다.
-###  env user 설정
+
+### env user 설정
 
 Environment Variables 탭에서 `config.yml`에서 설정했던 env이름으로 key-value쌍을 만들어 추가해 줍니다.
 
@@ -235,15 +238,15 @@ Environment Variables 탭에서 `config.yml`에서 설정했던 env이름으로 
 Zotero의 설정 창에 들어가 동기화 탭에 들어가면 파일 동기화 부분이 있습니다. 여기에서 동기화 도구를 `WebDAV`로 바꿔주고 폼을 입력해 줍니다.
 
 - URL: coolify에서 domain을 설정했다면 생성된 domain을 입력해 줍니다. 아니라면 서버의 IP를 입력하고 port를 config에 설정한 대로 6065로 입력해 줍니다. 아래는 입력 예시입니다.
-	- example.jinmu.me
-	- 123.123.123.123:6065
+  - example.jinmu.me
+  - 123.123.123.123:6065
 - 사용자명: 환경변수 `ENV_USERNAME`의 값
 - 비밀번호: 환경변수 `ENV_PASSWORD`의 값
 
 이렇게 설정하고 zotero application 오른쪽 위에 있는 동기화 버튼(🔄)을 누르면 서버와WebDAV 프로토콜을 지켜서 sync를 시작합니다. 이렇게 우리만의zoteroo서지 관리 서버를 갖게 되었습니다.
-이제 아이패드에 하이라이팅하거나 메모,캡처 등을을 남겨 놓아도인터넷만 연결되어 있다면 모든 기기와동기화할 수 있습니다. 
+이제 아이패드에 하이라이팅하거나 메모,캡처 등을을 남겨 놓아도인터넷만 연결되어 있다면 모든 기기와동기화할 수 있습니다.
 
-## Outro 
+## Outro
 
 단어 외우겠다고 서버 구축을 시작하였지만, 꽤 재미도 있고 아이패드랑 휴대전화, 맥북에서 전부 동기화가 되는 걸 보니 괜스레 뿌듯해지네요 :)
 

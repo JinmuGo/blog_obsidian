@@ -3,13 +3,14 @@ title: "[CLF-C02] AWS Cloud Practitioner 자격증 취득 후기"
 date: 2025-05-22T00:03:25.401Z
 draft: false
 layout: PostBannerX
-summary: 
+summary:
 tags:
   - AWS
   - CLF-C02
 lastmod: 2025-05-22T14:18:22+09:00
 category: AWS
 ---
+
 ## Intro
 
 최근 클라우드를 공부하고 있습니다. 자격증이 온전히 실력을 대변해 주지는 못하지만, 어느 정도 성과를 보면서 공부하고 싶어 그 첫 단계로 AWS Cloud Practitioner 자격증을 취득했습니다. 이 글에서는 제가 이 자격증을 준비하면서 경험한 내용과 효율적인 공부 방법 및 팁을 공유하고자 합니다.
