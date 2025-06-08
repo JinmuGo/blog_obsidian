@@ -4,7 +4,7 @@ draft: false
 lastmod: "2024-12-20T02:40:24.461Z"
 layout: PostBannerX
 summary: 9oormthon 12th edition front developer's participation review
-title: First Hackathon Participation Review
+title: 9oormthon 12th Front Developer Participation Review
 tags:
   - 구름톤
   - 9oormthon 12th
@@ -14,7 +14,7 @@ category: experience
 
 ## Intro
 
-I participated as a front-end developer in the 12th edition of 9oormthon, which ran from December 10, 2024 to December 13, 2024. In this post, I'd like to write about my first hackathon experience.
+I participated as a front-end developer in the 12th edition of 9oormthon, which ran from December 10, 2024 to December 13, 2024.
 
 In addition to my personal first hackathon recollection, I hope this post will be helpful for prospective goormoners.
 
