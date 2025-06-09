@@ -8,7 +8,7 @@ Tags:
   - AWS
   - CLF-C02
 lastmod: 2025-05-22T14:18:22+09:00
-category: AWS
+category: aws
 ---
 
 ## Intro
