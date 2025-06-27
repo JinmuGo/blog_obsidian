@@ -1,5 +1,5 @@
 ---
-title: DNS (Domain Name System) - 배경과 시스템
+title: DNS (Domain Name System) DeepDive - 배경과 시스템
 date: 2025-06-08T12:58:28.806Z
 draft: false
 layout: PostDefault
@@ -7,7 +7,7 @@ summary:
 tags:
   - DNS
   - NameServer
-lastmod: 2025-06-27T19:10:30+09:00
+lastmod: 2025-06-27T19:20:53+09:00
 category: develop
 series: DNS DeepDive
 seriesOrder: 1
