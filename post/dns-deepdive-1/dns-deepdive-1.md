@@ -7,7 +7,7 @@ summary:
 tags:
   - DNS
   - NameServer
-lastmod: 2025-06-27T19:07:05+09:00
+lastmod: 2025-06-27T19:10:30+09:00
 category: develop
 series: DNS DeepDive
 seriesOrder: 1
