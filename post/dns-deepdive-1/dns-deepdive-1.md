@@ -3,13 +3,13 @@ title: DNS (Domain Name System) DeepDive - 배경과 시스템
 date: 2025-06-08T12:58:28.806Z
 draft: false
 layout: PostDefault
-summary: 
+summary:
 tags:
   - DNS
   - NameServer
-lastmod: 2025-06-28T12:44:49+09:00
+lastmod: 2025-07-01T21:41:36+09:00
 category: develop
-series: DNS DeepDive
+series: DNS-DeepDive
 seriesOrder: 1
 withAI: true
 ---
