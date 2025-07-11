@@ -3,20 +3,19 @@ date: "2024-12-20T02:40:24.461Z"
 draft: false
 lastmod: "2024-12-20T02:40:24.461Z"
 layout: PostBannerX
-summary: 9oormthon 12th edition front developer's participation review
+summary: 9oormthon 12th Front Developer's Participation Review
 title: 9oormthon 12th Front Developer Participation Review
 tags:
   - 구름톤
-  - 9oormthon 12th
-  - hackathon
+  - goormthon 12th
+  - Hackathon
 category: experience
 ---
 
 ## Intro
 
 I participated as a front-end developer in the 12th edition of 9oormthon, which ran from December 10, 2024 to December 13, 2024.
-
-In addition to my personal first hackathon recollection, I hope this post will be helpful for prospective goormoners.
+In addition to my personal recollection of my first hackathon, I wrote this post to help prospective goormoners.
 
 ## Motivation to participate
 
@@ -24,7 +23,7 @@ In addition to my personal first hackathon recollection, I hope this post will b
 
 In the process of IT service development, I wanted to experience understanding the output of planners and designers and develop ideas together by requesting modifications or adding opinions.
 Conversely, I wanted to participate because I wanted to have the experience of explaining the problems that may arise during the programming process so that the planners and designers could understand.
-At [42seoul](https://42seoul.kr), where I first learned programming, I mainly collaborated with people who worked in development or learned development, so at this Goormathon, I wanted to collaborate with people who had less understanding of development and practice solving complex situations in an easy way and conveying them to them.
+At [42seoul](https://42seoul.kr), where I first learned programming, I mainly collaborated with people who worked in development or learned development, so at this Goormathon, I wanted to collaborate with people who had less understanding of development and practice explaining complex situations to them in an easy way.
 
 2. Fast and accurate product development training
 
@@ -59,14 +58,14 @@ Within 4 days of submission, I received an acceptance email and was able to part
 
 ## Schedule
 
-The main schedule for each day is as follows
+Here are the main events for each day
 
 | **Day 1** |                        **Main Schedule**                         |
 | :-------: | :--------------------------------------------------------------: |
 | **Day 1** | Hackathon Lecture, 3-minute Self PR, Ideation Topic Presentation |
 | **Day 2** |           2-minute IDEATION, Team Building, Beer Party           |
 | **Day 3** |                          Hackathon run                           |
-| **Day 4** |     Hackathon Presentation, Results Announcement and Awards      |
+| **Day 4** |     Hackathon presentation, results announcement and awards      |
 
 ### Day 0
 
@@ -77,13 +76,13 @@ I arrived in Jeju Island on the afternoon of December 09th, the day before, and 
 I had to create a bio page on Notion because I had to perform a 3-minute Self PR on the first day of Goormathon.
 I'm not very good at introducing myself, so I was most afraid of the Self PR on the first day. I had to give presentations since I was in school, and my ears and face would turn red just getting up from my seat, so I often avoided presentations. However, I realized that I couldn't even convince others if I avoided it just because I couldn't give a presentation. So I wanted to get better this time, so I searched for the keyword "self-presentation" in the library and read the book 18-second self-presentation method [^self-pr-book], and wrote a self-presentation page based on the book and prepared for the presentation.
 
-At the beginning of the book, the author says
+Early in the book, the author says
 
 > [!note] The 18-second elevator pitch.
 >
 > > A bio is not about introducing yourself, it's about introducing the future the listener can gain from your involvement.
 
-Following this advice, I've written my bio in such a way that it's about what the listener can gain from my experience. In other words, I made my bio about the listener, not me, so I positioned myself as the pacer of the cloud talkers and tried to convey a metaphorical message to others, "It would be great to team up with me and collaborate!"
+Following this advice, I've written my bio in such a way that it's about what the listener can gain from my experience. In other words, I structured my bio around the listener, not me, so I positioned myself as the pacer of the cloud talkers and tried to convey a metaphorical message to others, "It would be great to team up with me and collaborate!"
 
 Below is the bio page I wrote.
 
@@ -96,11 +95,11 @@ Day 1 consisted of hackathon lectures and presentations on the topics of Self PR
 
 ### Hackathon Lecture
 
-_Exciting hackathon with open source_.
+Hackathon with open source excitement
 
-Before the Goormathon. We had a lecture that gave us an overview of how to approach a hackathon with the right mindset.
+Before the Goormathon. We had a lecture that gave us an overview of what kind of mindset we should have for the hackathon.
 
-In particular, the importance of selection and focus was emphasized due to the nature of the hackathon, which is to develop a product in a short time.
+In particular, the importance of selection and focus was emphasized due to the nature of hackathons where you have to develop a product in a short time.
 Therefore, we introduced how to develop quickly by utilizing already developed open source or how to quickly materialize ideas by utilizing design tools such as Lean Canvas.
 
 In the MVP development process, we emphasized the following points.
@@ -149,25 +148,29 @@ And in between DONE and PERFECT is GROWTH. Moving from your current state of bei
 
 Hence, "PERFECTLY DONE." Every moment of the hackathon. You said to aim to get it done as close to perfect as possible.
 
-This lecture is said to be based on Chiksent Mihai's \<Immersion\>[^1], if you're interested, you might want to check it out.
+This lecture is said to be based on Chiksent Mihai's \<Immersion\>[^1], if you're interested, you might want to read it.
 
-### Presentation on the topic of foundation
+### Announcing the foundation topic
 
-At the end of Day 1, we had the presentation of the foundation topic.
-The topic for this 12th edition was **Aging**.
+At the end of Day 1, we had the announcement of the foundation topic.
+The topic for this 12th edition was "Aging".
 
 When I wrote my application, I presented a service related to aging, so I made a PPT that was a little more advanced.
 
-### Wrapping up Day 1
+### End of Day 1
 
-On Day 1, I went out for a walk with my teammates in the middle of the day and had a good time eating black pork with other Goormoners in the evening. You don't get to go outside that much during Goormathon, so I recommend that you move around a lot from day 1. Sometimes it's hard to realize that you're in Jeju Island.
+On Day 1, I went out for a walk with my teammates in the middle of the day and had a good time eating black pork with other Goormoners in the evening. During Goormathon, you don't get to go outside that much. I recommend that you move around a lot from day 1. Sometimes it doesn't feel real to be in Jeju Island.
 
-| ![jeju](./image7.webp) | ![1st-dinner](./1st-dinner.webp) |
-| ---------------------- | -------------------------------- |
+<div class="image-row">
+
+![[image7.webp]]
+![[1st-dinner.webp]]
+
+</div>
 
 ## Day 2
 
-On the second day, the participants had the opportunity to think of their own ideas on the previous day's foundation topic, 'Aging', and present them in the
+Day 2 started with a team-building and beer party, followed by the
 2-minute ideation time, team building, and a beer party.
 
 ### 2-minute IDEATION
@@ -184,7 +187,7 @@ Afterward, I listened to other people's presentations and thought about what kin
 
 The team building time was like a marketplace. There was no system, we just asked each other who we wanted to team up with and formed a team.
 
-I had already made a list of people I wanted to work with while listening to the foundation, and luckily I didn't have much trouble organizing my team. If you're going to participate in a goormathon, I would recommend that you think about who you want to team up with and what ideas you want to bring to the table during the team building time.
+I had already made a list of people I wanted to work with while listening to the foundation, and I was lucky enough to have no trouble organizing my team. If you're going to participate in a goormathon, I would recommend that you think about who you want to team up with and what ideas you want to bring to the table during the team building time.
 There is a certain amount of 'luck' that comes into play during this time, and we were often teamed up with people who were relatively close to each other based on our initially randomized seat assignments.
 
 So if you have a goal or outcome you want, it's important to be proactive about it. You'll be more satisfied with the outcome if you make the move and team up with someone rather than hoping they'll come to you.
@@ -194,7 +197,7 @@ That's how our team, "[**Olmangolmangolmangolmang**](https://github.com/ddol-man
 A bunch of old ladies gathered for old ladies, doesn't that sound good?
 
 After the team was formed, we had a brainstorming session to select topics that fit the theme of 'Jeju Island', 'Cloud', and 'Aging'. However, it was not easy to select services that fit the theme.
-We couldn't fundamentally solve the social problem of aging, so we decided to develop a service that could alleviate or solve problems caused by aging.
+We couldn't fundamentally solve the social problem of aging, so we decided to develop a service that could alleviate or solve the problems caused by aging.
 
 However, we ended up at the beer party at 6pm with no good ideas.
 
@@ -223,10 +226,11 @@ We chose the topic based on [a newspaper article](https://www.jejunews.com/news/
 >
 > ... (emphasis added)
 >
-> > "Relationship with children" is more important than living standard or current life when it comes to life satisfaction.
+> "Relationship with children" is more important than living standards or current life in terms of life satisfaction.
+>
 > > In short, older adults in Jeju Island have their children at the center of their happiness, but they are relationship-oriented rather than dependent, explore independence and meaning in life through work, and value their children's health and happiness more than their own.
 
-The above article made us realize that there is a need for a connection between Jeju parents and their mainland children, and to solve this problem, we decided to develop a platform between parents and children that allows them to communicate their current status through simple interactions.
+The above article made us realize that there is a need for a connection between Jeju parents and their mainland children, and to solve this problem, we decided to develop a platform for parents and children to communicate their current status through simple interactions.
 
 The topic was chosen because everyone on the team felt empathy and excitement for this problem. Personally, I was overwhelmed when the topic was first decided.
 The process of brainstorming and refining the idea was hard, but we were having so much fun that we stayed up until 4am.
@@ -254,16 +258,20 @@ By 10 o'clock the next day, the presentation preparation and development were fi
 Seongsan Sunrise Peak, which we visited during the hackathon.
 And a photo with the team members.
 
-| ![Seongsan Ilchulbong](./image6.webp) | ![team](./team.webp) |
-| ------------------------------------- | -------------------- |
+<div class="image-row">
+
+![[image6.webp]]
+![[team.webp]]
+
+</div>
 
 ## Day 4
 
-Day 4 was the hackathon presentation and awards.
+Day 4 was the hackathon announcements and awards.
 
 ### Hackathon presentation
 
-We presented our service "[Hey, old lady](https://github.com/ddol-mang/hey-oldlady)", which we had been working on all night.
+We presented our service "[Hey, Grandma]" (<https://github.com/ddol-mang/hey-oldlady>), which we had been working on all night.
 
 ![Hey, old lady](./image5.webp)
 
@@ -272,7 +280,7 @@ We presented the problem through news and statistics, and introduced a service t
 
 However, in the feedback from the presentation, you raised the question of whether the features and problems we presented were **actually needed by users**.
 We thought a lot about this, but we were disappointed that we didn't create a logic that could explain it well enough.
-However, we really enjoyed the fact that our service focused on user experience and **aging** and focused on a simple user flow to solve it.
+However, we're really glad that our service focused on user experience and **aging** and that we focused on a simple user flow to solve it.
 
 ## Outro
 

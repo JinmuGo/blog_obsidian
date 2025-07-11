@@ -4,7 +4,7 @@ date: 2025-07-11T01:13:41.081Z
 draft: false
 tags:
   - git
-lastmod: 2025-07-11T14:21:47+09:00
+lastmod: 2025-07-11T23:55:21+09:00
 category: develop
 summary:
 layout: PostDefault
@@ -13,7 +13,7 @@ bannerOnlyText: true
 
 ## Intro
 
-In my workflow using `git`, I often use the interactive rebase (`git rebase -i`) feature to clean up commits before pushing to remote. It's a good way to look back at what you've done so far and make sure your commits are in meaningful chunks. I used to only use `squash` to combine multiple commits into one, because I thought that was all there was 😅 But this time, while using `lazygit`, I discovered the `fixup` command, which does something, and it's exactly what I was looking for while using `squash`. Today I'm going to compare `squash` and `fixup`, the commands you can use during Interactive Rebase, and see when you should use them.
+In my workflow using `git`, I often use the interactive rebase (`git rebase -i`) feature to clean up commits before pushing to remote. It's a great way to look back at what you've done so far and make sure your commits are in meaningful chunks. In the past, I've only used `squash` to combine multiple commits into one, because I thought that was all there was to it 😅 But this time, while using `lazygit`, I discovered the `fixup` command. It did something, and it was exactly what I was looking for while using `squash`. Today I'm going to compare `squash` and `fixup`, the commands you can use during Interactive Rebase, and see when you should use them.
 
 ![[git-squash-vs-fixup-1752198125071.webp]]
 
@@ -25,9 +25,12 @@ This is the `interactive` screen that comes up when you type `git rebase -i`. As
 - Handles commit messages:\*\* Opens an editor to edit the messages of all the commits being merged, meaning it shows both the previous and current commit messages, and allows the user to combine them or create new ones.
 - Key uses:\*\* This is useful when you want to combine multiple small feature additions or refactoring commits into one large, meaningful feature commit, or when you want to organize multiple fix commits into one clean commit while leaving a unified message about what they are.
 
-![[git-squash-vs-fixup-1752198570627.webp]]
+<div class="image-row">
 
-![The editor will open like this](./git-squash-vs-fixup-1752198583775.webp)
+![Select squash command](./git-squash-vs-fixup-1752198570627.webp)
+![The editor opens like this](./git-squash-vs-fixup-1752199918988.webp)
+
+</div>
 
 ## `fixup` (or `f`)
 
@@ -35,13 +38,18 @@ This is the `interactive` screen that comes up when you type `git rebase -i`. As
 - Commit message handling:** Discard the current commit's messages, **keeping only the previous commit's messages\*\*. Messages are processed automatically without opening a separate editor.
 - Key uses:\*\* When making a commit that supplements or corrects a previous commit, such as fixing typos, fixing very small bugs, or missing minor changes in a previous commit. This is appropriate when a new commit message is unnecessary and the message in the original commit describes the change well. Creating a commit with the command `git commit --fixup <commit-hash>` automatically generates a commit message prefixed with `fixup!`, which is very convenient when used with `git rebase --autosquash`.
 
-![[git-squash-vs-fixup-1752199918988.webp]]
+## Example
 
 If you have these commits that have not yet been pushed to remote, you can use the
 
+<div class="image-row">
+
+![[git-squash-vs-fixup-1752199918988.webp]]
 ![[git-squash-vs-fixup-1752199951224.webp]]
 
-I'd modify lazygit's config and push them to the
+</div>
+
+I want to modify lazygit's config and merge it into commit `3f05b2a`.
 
 ```text
 * 3fa9966 - (HEAD -> main) remove: zsh-completions (46 seconds ago) <JinmuGo>
@@ -53,7 +61,7 @@ I'd modify lazygit's config and push them to the
 * 76add98 - remove: catppuccin-tmux module (24 hours ago) <JinMuGo>
 ```
 
-I want to merge it into commit `3f05b2a`, so I stage the fixup file and do `git commit --fixup 3f05b2a`, which will result in the
+At this point, I stage the fixup file and run `git commit --fixup 3f05b2a`, which will result in the
 
 ![[git-squash-vs-fixup-1752200222658.webp]]
 
@@ -68,7 +76,7 @@ And when you save and exit
 
 So you can see that the commits I modified are neatly merged together.
 
-**Summary comparison:**
+## Summary comparison
 
 | Features             | `squash`                                                        | `fixup`                                                            |
 | -------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------ |
