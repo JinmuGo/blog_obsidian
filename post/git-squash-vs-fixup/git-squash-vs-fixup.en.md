@@ -21,9 +21,9 @@ This is the `interactive` screen that comes up when you type `git rebase -i`. As
 
 ## `squash` (or `s`)
 
-- Function:** Merges the commit with the previous commit.
-- Handles commit messages:** Opens an editor to edit the messages of all the commits being merged, meaning it shows both the previous and current commit messages, and allows the user to combine them or create new ones.
-- Key uses:** This is useful when you want to combine multiple small feature additions or refactoring commits into one large, meaningful feature commit, or when you want to organize multiple fix commits into one clean commit while leaving a unified message about what they are.
+- Function:\*\* Merges the commit with the previous commit.
+- Handles commit messages:\*\* Opens an editor to edit the messages of all the commits being merged, meaning it shows both the previous and current commit messages, and allows the user to combine them or create new ones.
+- Key uses:\*\* This is useful when you want to combine multiple small feature additions or refactoring commits into one large, meaningful feature commit, or when you want to organize multiple fix commits into one clean commit while leaving a unified message about what they are.
 
 ![[git-squash-vs-fixup-1752198570627.webp]]
 
@@ -31,9 +31,9 @@ This is the `interactive` screen that comes up when you type `git rebase -i`. As
 
 ## `fixup` (or `f`)
 
-- Function:** Merge the current commit with the previous commit (same function as `squash`).
-- Commit message handling:** Discard the current commit's messages, **keeping only the previous commit's messages**. Messages are processed automatically without opening a separate editor.
-- Key uses:** When making a commit that supplements or corrects a previous commit, such as fixing typos, fixing very small bugs, or missing minor changes in a previous commit. This is appropriate when a new commit message is unnecessary and the message in the original commit describes the change well. Creating a commit with the command `git commit --fixup <commit-hash>` automatically generates a commit message prefixed with `fixup!`, which is very convenient when used with `git rebase --autosquash`.
+- Function:\*\* Merge the current commit with the previous commit (same function as `squash`).
+- Commit message handling:** Discard the current commit's messages, **keeping only the previous commit's messages\*\*. Messages are processed automatically without opening a separate editor.
+- Key uses:\*\* When making a commit that supplements or corrects a previous commit, such as fixing typos, fixing very small bugs, or missing minor changes in a previous commit. This is appropriate when a new commit message is unnecessary and the message in the original commit describes the change well. Creating a commit with the command `git commit --fixup <commit-hash>` automatically generates a commit message prefixed with `fixup!`, which is very convenient when used with `git rebase --autosquash`.
 
 ![[git-squash-vs-fixup-1752199918988.webp]]
 
@@ -70,12 +70,12 @@ So you can see that the commits I modified are neatly merged together.
 
 **Summary comparison:**
 
-| Features | `squash` | `fixup` |
-| --------------- | ---------------------------------------------- | ----------------------------------------------- |
-| **Merging** | Merges with previous commits | Merges with previous commits |
-| **Message Handling** | Combine all merged commit messages into a single, editable file | Discard current commit message and keep previous commit messages |
-| **Editor** | Opens | Does not open |
-| **Main uses** | Meaningfully combine content and messages from multiple commits | Minor fixes/complements to previous commits (no messages required) |
+| Features             | `squash`                                                        | `fixup`                                                            |
+| -------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Merging**          | Merges with previous commits                                    | Merges with previous commits                                       |
+| **Message Handling** | Combine all merged commit messages into a single, editable file | Discard current commit message and keep previous commit messages   |
+| **Editor**           | Opens                                                           | Does not open                                                      |
+| **Main uses**        | Meaningfully combine content and messages from multiple commits | Minor fixes/complements to previous commits (no messages required) |
 
 > [!note] 💡 Notes.
 > Interactive rebase also allows commands such as `edit` (to modify a commit), `drop` (to delete a commit), and `reword` (to modify only the message).

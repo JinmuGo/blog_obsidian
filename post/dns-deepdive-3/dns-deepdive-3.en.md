@@ -19,9 +19,9 @@ Finding the IP address that corresponds to a domain name according to the user's
 The basis of Name Resolution is a query and a response. This query and response has three promises.
 
 1. queries and responses always correspond 1:1.
-	- You will never get a response that doesn't correspond to a query, or two responses to a query.
+   - You will never get a response that doesn't correspond to a query, or two responses to a query.
 2. If you want to know information, you must specify the domain name and type of information you want to know.
-	- The name and type must be specified together, such as "IP address of jinmu.me".
+   - The name and type must be specified together, such as "IP address of jinmu.me".
 3. The person providing the information responds to the query with the information they know.
 
 ## Name Resolution follows a hierarchical structure
@@ -35,11 +35,12 @@ In order for a querier to follow the hierarchy of DNS and perform name resolutio
 ![[image-1232.webp]]
 
 ### Preparation (left side of the figure).
+
 1. A parent-child relationship is established between `root` and `me` by delegation. Root is the parent and me is the child.
 2. me registers its name server information with root, the parent. Root registers and configures the name server information registered by me to its name servers.
 
-
 ### Real name resolution (right side of the figure)
+
 1. while the parent-child relationship is established by delegation, A asks Root, "Please tell me the IP address of jinmu.me".
 2. the root responds with the name server information of `me` (`b.dns.me`) because it only knows the name server information of the delegate for `me`.
 3. A queries `b.dns.me` using the name server information for me that it received from root.
@@ -51,31 +52,31 @@ Following the DNS hierarchy in this way, starting at the root and working backwa
 Let's take a look at the hierarchical name resolution we saw above in a little more detail.
 
 ![[dns-deepdive-3-1751809205331.webp]]
- 1. query
-	- The user sends a query to the name server at the top of the hierarchy, the root, specifying the name and kind of information they want to know.
- 2. response
-	 - The root responds with the name server information of `me` (`b.dns.me` in this example) because it is delegating to `me`.
-3. query
-	- From the response received from root, we can see two things
-		- Root is delegating `me`.  
-		- The delegate's name server is `b.dns.me`.
-	- Use this information to send a single query to the name server for `me`.
-4. Response
-	- Because `me` is delegating to `jinmu.me`, it responds with the name server information of its delegate, `jinmu.me` (`ns1.jinmu.me` in this example).
-5. Query
-	- From the response received from `me`, we can see two things
-		- `me` is delegating `jinmu.me`.  
-		- The name server of the delegate is `ns1.jinmu.me`.
-	- Using this information, send the same query as in step 1 to the name server at `jinmu.me`.
-6. Response
-	- The name server of `jinmu.me` responds with the IP address because it knows the IP address of `jinmu.me`. This allows the user to get the IP address of `jinmu.me` (`76.76.21.21`) and the name resolution ends.
 
+1.  query
+    - The user sends a query to the name server at the top of the hierarchy, the root, specifying the name and kind of information they want to know.
+2.  response
+    - The root responds with the name server information of `me` (`b.dns.me` in this example) because it is delegating to `me`.
+3.  query
+    - From the response received from root, we can see two things
+      - Root is delegating `me`.
+      - The delegate's name server is `b.dns.me`.
+    - Use this information to send a single query to the name server for `me`.
+4.  Response
+    - Because `me` is delegating to `jinmu.me`, it responds with the name server information of its delegate, `jinmu.me` (`ns1.jinmu.me` in this example).
+5.  Query
+    - From the response received from `me`, we can see two things
+      - `me` is delegating `jinmu.me`.
+      - The name server of the delegate is `ns1.jinmu.me`.
+    - Using this information, send the same query as in step 1 to the name server at `jinmu.me`.
+6.  Response
+    - The name server of `jinmu.me` responds with the IP address because it knows the IP address of `jinmu.me`. This allows the user to get the IP address of `jinmu.me` (`76.76.21.21`) and the name resolution ends.
 
 ## Reducing the load and time of name resolution
 
 While it is certainly possible to perform name resolution by following the DNS hierarchy from the root, it requires a lot of requests, responses, and time. Therefore, a solution was devised to have a separate server in charge of name resolution and accept requests from other hosts to perform name resolution on their behalf.
 
-In our example, let's call this agent X. You send a request to X: "**Please resolve names for me** and give me the IP address of `jinmu.me**", and X will do the name resolution described above.
+In our example, let's call this agent X. You send a request to X: "**Please resolve names for me** and give me the IP address of `jinmu.me\*\*", and X will do the name resolution described above.
 
 ![[dns-deepdive-3-1751810301365.webp]]
 

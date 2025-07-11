@@ -4,9 +4,9 @@ date: 2025-07-11T01:13:41.081Z
 draft: false
 tags:
   - git
-lastmod: 2025-07-11T14:21:47+09:00
+lastmod: 2025-07-11T15:32:50+09:00
 category: develop
-summary: 
+summary:
 layout: PostDefault
 bannerOnlyText: true
 ---
