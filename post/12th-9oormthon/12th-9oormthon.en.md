@@ -1,12 +1,12 @@
 ---
-date: "2024-12-20T02:40:24.461Z"
+date: 2024-12-20T02:40:24.461Z
 draft: false
-lastmod: "2024-12-20T02:40:24.461Z"
+lastmod: 2025-07-12T11:51:53+09:00
 layout: PostBannerX
 summary: 9oormthon 12th Front Developer's Participation Review
-title: 9oormthon 12th Front Developer Participation Review
+title: 9oormthon 12th Participation Review
 tags:
-  - 구름톤
+  - goormthon
   - goormthon 12th
   - Hackathon
 category: experience
@@ -79,7 +79,6 @@ I'm not very good at introducing myself, so I was most afraid of the Self PR on 
 Early in the book, the author says
 
 > [!note] The 18-second elevator pitch.
->
 > > A bio is not about introducing yourself, it's about introducing the future the listener can gain from your involvement.
 
 Following this advice, I've written my bio in such a way that it's about what the listener can gain from my experience. In other words, I structured my bio around the listener, not me, so I positioned myself as the pacer of the cloud talkers and tried to convey a metaphorical message to others, "It would be great to team up with me and collaborate!"
@@ -163,8 +162,8 @@ On Day 1, I went out for a walk with my teammates in the middle of the day and h
 
 <div class="image-row">
 
-![[image7.webp]]
-![[1st-dinner.webp]]
+  ![[image7.webp]]
+  ![[1st-dinner.webp]]
 
 </div>
 
@@ -260,8 +259,8 @@ And a photo with the team members.
 
 <div class="image-row">
 
-![[image6.webp]]
-![[team.webp]]
+  ![[image6.webp]]
+  ![[team.webp]]
 
 </div>
 
@@ -271,7 +270,7 @@ Day 4 was the hackathon announcements and awards.
 
 ### Hackathon presentation
 
-We presented our service "[Hey, Grandma]" (<https://github.com/ddol-mang/hey-oldlady>), which we had been working on all night.
+We presented our service "[Hey, Grandma](https://github.com/ddol-mang/hey-oldlady)", which we had been working on all night.
 
 ![Hey, old lady](./image5.webp)
 
