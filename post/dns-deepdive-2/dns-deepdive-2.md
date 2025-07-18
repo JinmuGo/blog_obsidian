@@ -4,6 +4,7 @@ date: 2025-06-28T11:46:25.268Z
 draft: false
 layout: PostDefault
 summary:
+banner: banner/dns-deepdive.jpg
 tags:
   - DNS
   - Registry

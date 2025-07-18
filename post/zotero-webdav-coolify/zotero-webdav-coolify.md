@@ -4,6 +4,7 @@ date: 2025-03-25T04:46:34.380Z
 draft: false
 layout: PostBannerX
 summary: Coolify에 WebDAV 서버를 구축하고 여러 기기 간 문서 동기화를 구현한 경험.
+banner: zotero-webdav-coolify.jpg
 tags:
   - zotero
   - coolify

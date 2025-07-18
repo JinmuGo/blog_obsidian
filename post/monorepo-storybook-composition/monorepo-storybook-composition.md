@@ -4,6 +4,7 @@ date: 2025-05-13T13:02:43.826Z
 draft: false
 layout: PostDefault
 summary:
+banner: monorepo-storybook-composition.jpg
 tags:
   - storybook-composition
   - monorepo

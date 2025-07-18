@@ -4,6 +4,7 @@ date: 2025-05-22T00:03:25.401Z
 draft: false
 layout: PostBannerX
 summary:
+banner: aws-clf-c02.jpg
 tags:
   - AWS
   - CLF-C02

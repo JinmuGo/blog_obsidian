@@ -4,6 +4,7 @@ date: 2025-05-01T01:46:46.245Z
 draft: false
 layout: PostBannerX
 summary: 불완전한 댓글 기능, Fuma Comment로 깔끔하게 리빌드한 후기
+banner: blog-comment-feautre-with-fuma-comment.jpg
 tags:
   - fuma-comment
   - postgres

@@ -4,6 +4,7 @@ date: 2025-06-04T13:25:20.437Z
 draft: false
 layout: PostBannerX
 summary:
+banner: amazon-q-developer-cli.jpg
 tags:
   - AmazonQCLI
   - AWS

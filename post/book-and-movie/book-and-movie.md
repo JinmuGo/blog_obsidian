@@ -4,6 +4,7 @@ draft: false
 layout: PostBannerX
 summary: 책과 영화에 대해
 title: 책과 영화
+banner: book-and-movie.jpg
 tags:
   - 이동진
   - 책과 영화

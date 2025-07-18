@@ -4,6 +4,7 @@ date: 2025-04-17T04:51:16.861Z
 draft: false
 layout: PostBannerX
 summary: 검은 잔과 흰 연기가 빚어내는 철학적 수다
+banner: coffee-and-cigarettes.jpg
 tags:
   - coffee
   - cigarettes
