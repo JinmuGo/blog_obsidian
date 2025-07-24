@@ -1,7 +1,6 @@
 ---
 date: "2022-09-12T00:00:00.000Z"
 draft: false
-layout: PostBannerY
 summary: 프로세스 이코노미를 읽고
 title: 프로세스 이코노미
 banner: process-economy.jpg

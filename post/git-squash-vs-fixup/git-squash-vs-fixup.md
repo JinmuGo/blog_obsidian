@@ -6,8 +6,6 @@ tags:
   - git
 lastmod: 2025-07-12T00:01:55+09:00
 category: develop
-summary: 
-layout: PostDefault
 bannerOnlyText: true
 ---
 

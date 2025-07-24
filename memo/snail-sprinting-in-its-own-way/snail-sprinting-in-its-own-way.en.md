@@ -5,8 +5,7 @@ draft: false
 tags:
   - snail
 lastmod: 2025-06-04T12:00:39+09:00
-category: personal
-summary:
+category: thinking
 ---
 
 ```embed

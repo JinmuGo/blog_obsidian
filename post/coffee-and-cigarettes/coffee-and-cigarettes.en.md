@@ -2,7 +2,6 @@
 title: Coffee, Cigarettes, and People on a Chessboard
 date: 2025-04-17T04:51:16.861Z
 draft: false
-layout: PostBannerX
 summary: Philosophical chatter over black cups and white smoke.
 tags:
   - coffee

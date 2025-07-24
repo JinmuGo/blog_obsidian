@@ -1,7 +1,6 @@
 ---
 draft: false
 date: "2024-04-09T00:00:00.000Z"
-layout: PostBannerY
 summary: Midsoma Reflections
 title: On our attitudes toward the base, the unknown, and knowledge
 tags:

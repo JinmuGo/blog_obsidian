@@ -2,7 +2,6 @@
 title: How to apply blog comment function With Fuma Comment
 date: 2025-05-01T01:46:46.245Z
 draft: false
-layout: PostBannerX
 summary: A review of incomplete commenting functionality, rebuilt cleanly with Fuma Comment
 tags:
   - fuma-comment

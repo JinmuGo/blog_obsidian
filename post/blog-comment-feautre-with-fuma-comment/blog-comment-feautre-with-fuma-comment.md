@@ -2,7 +2,6 @@
 title: 블로그 댓글기능 적용기 With Fuma Comment
 date: 2025-05-01T01:46:46.245Z
 draft: false
-layout: PostBannerX
 summary: 불완전한 댓글 기능, Fuma Comment로 깔끔하게 리빌드한 후기
 banner: blog-comment-feautre-with-fuma-comment.jpg
 tags:

@@ -1,7 +1,6 @@
 ---
 draft: false
 date: "2023-07-28T00:00:00.000Z"
-layout: PostBannerY
 summary: After seeing Nasangmun
 title: Nevertheless, we must believe
 tags:

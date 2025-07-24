@@ -1,13 +1,12 @@
 ---
 date: "2023-05-16T00:00:00.000Z"
 draft: false
-layout: PostBannerX
 summary: About books and movies
 title: About Books and Movies
 tags:
   - Lee Dong-jin
   - books and movies
-category: think
+category: thinking
 ---
 
 > [!quote]

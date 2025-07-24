@@ -2,8 +2,6 @@
 title: Monorepo기반 Next.js와 UI 패키지를 위한 Storybook Composition 설정
 date: 2025-05-13T13:02:43.826Z
 draft: false
-layout: PostDefault
-summary:
 banner: monorepo-storybook-composition.jpg
 tags:
   - storybook-composition

@@ -1,7 +1,6 @@
 ---
 date: "2024-04-19T00:00:00.000Z"
 draft: false
-layout: PostBannerX
 summary: 오픈 소스에 대하여
 title: The mind behind linux
 banner: the-mind-behind-linux.jpg

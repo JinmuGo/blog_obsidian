@@ -2,8 +2,6 @@
 title: Setting up Storybook Composition for Monorepo-based Next.js and UI packages
 date: 2025-05-13T13:02:43.826Z
 draft: false
-layout: PostDefault
-summary:
 Tags:
   - storybook-composition
   - monorepo

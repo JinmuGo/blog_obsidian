@@ -5,7 +5,7 @@ draft: false
 tags:
   - marathon
 lastmod: 2025-04-29T14:09:22+09:00
-category: running
+category: health
 summary: 풀 마라톤을 향한 첫 걸음.
 ---
 

@@ -2,13 +2,11 @@
 title: Amazon Q Developer CLI Quick Start Guide
 date: 2025-06-04T13:25:20.437Z
 draft: false
-layout: PostBannerX
-summary:
 tags:
   - AmazonQCLI
   - AWS
 lastmod: 2025-06-05T13:34:57+09:00
-category: aws
+category: cloud
 ---
 
 AWSKRUG alerted me to an event on creating a simple game with Amazon Q Developer, so I thought I'd join in.

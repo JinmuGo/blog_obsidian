@@ -2,7 +2,6 @@
 title: Deploying a WebDAV server for Zotero synchronization with Coolify
 date: 2025-03-25T04:46:34.380Z
 draft: false
-layout: PostBannerX
 summary: Our experience building a WebDAV server on Coolify and implementing document synchronization across devices.
 tags:
   - zotero

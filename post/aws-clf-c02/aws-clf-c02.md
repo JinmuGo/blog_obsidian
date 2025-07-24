@@ -2,14 +2,12 @@
 title: "[CLF-C02] AWS Cloud Practitioner 자격증 취득 후기"
 date: 2025-05-22T00:03:25.401Z
 draft: false
-layout: PostBannerX
-summary:
 banner: aws-clf-c02.jpg
 tags:
   - AWS
   - CLF-C02
 lastmod: 2025-05-22T14:18:22+09:00
-category: aws
+category: cloud
 ---
 
 ## Intro

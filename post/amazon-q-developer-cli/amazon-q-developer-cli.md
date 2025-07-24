@@ -2,14 +2,12 @@
 title: Amazon Q Developer CLI 간단 체험기
 date: 2025-06-04T13:25:20.437Z
 draft: false
-layout: PostBannerX
-summary:
 banner: amazon-q-developer-cli.jpg
 tags:
   - AmazonQCLI
   - AWS
 lastmod: 2025-06-05T13:34:57+09:00
-category: aws
+category: cloud
 ---
 
 AWSKRUG에서 Amazon Q Developer로 간단한 게임 만드는 이벤트를 한다고 알려줘서 참여해보았습니다.

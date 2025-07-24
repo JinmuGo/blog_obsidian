@@ -2,9 +2,7 @@
 title: Domain Name System (DNS) DeepDive - Name Resolution
 date: 2025-07-06T02:48:10.982Z
 draft: false
-layout: PostDefault
-summary:
-banner: banner/dns-deepdive.jpg
+sanner: banner/dns-deepdive.jpg
 tags:
   - DNS
 lastmod: 2025-07-06T23:29:49+09:00

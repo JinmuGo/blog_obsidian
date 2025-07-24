@@ -5,7 +5,7 @@ draft: false
 tags:
   - marathon
 lastmod: 2025-04-29T14:09:22+09:00
-category: running
+category: health
 summary: The first step toward a full marathon.
 ---
 

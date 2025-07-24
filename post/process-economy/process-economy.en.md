@@ -1,7 +1,6 @@
 ---
 date: "2022-09-12T00:00:00.000Z"
 draft: false
-layout: PostBannerY
 summary: Read Process Economics
 title: Process Economy
 tags:

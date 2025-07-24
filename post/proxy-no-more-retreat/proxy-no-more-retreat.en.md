@@ -2,8 +2,6 @@
 title: Proxies, there's nowhere to hide!
 date: 2025-07-12T06:31:40.848Z
 draft: false
-layout: PostDefault
-summary:
 tags:
   - ReverseProxy
   - ForwardProxy
@@ -77,6 +75,7 @@ In this case, the next proxy in the request's path is called the "parent" and th
 
 > [!note] Dynamic Routing
 > Rather than simply sending requests to a set parent, a proxy can dynamically forward requests to other proxies or servers based on various conditions.
+>
 > > Below are some examples of Dynamic Routing.
 >
 > - Load balancing: A child proxy can select a parent proxy to balance the load based on the current workload level of the parent proxy. There are different algorithms for load balancing, so you may want to look them up if you're curious.
@@ -87,7 +86,7 @@ In this case, the next proxy in the request's path is called the "parent" and th
 
 Since web browsers (ex: safari, google chrome, arc) typically communicate directly with web servers, you must first establish how HTTP traffic goes through the proxy. No matter how powerful a proxy is, it's useless if traffic just passes through it without going through the proxy. In order for a proxy to do its job, it must force web traffic from the client to go through the proxy. There are two main ways to direct this traffic: server-side control and client/network control.
 
-In this article, we're going to take a closer look at the server-side control method in particular.**
+In this article, we're going to take a closer look at the server-side control method in particular.\*\*
 
 ### DNS modifications
 
@@ -98,11 +97,11 @@ Here's how it works
 1. DNS record setup: When an administrator sets up DNS records for a website's hostname (e.g. jinmu.me), they register the reverse proxy's IP address instead of the real web server's IP address.
 2. Client's DNS lookup: When a user types jinmu.me in a browser, the client's computer asks the DNS server for the IP address of this domain.
 3. return the proxy IP address: The DNS server returns the IP address of the reverse proxy as set in the response.
-4. Send request to proxy: **The client sends an HTTP request to that address, completely unaware that this IP address belongs to the proxy**. **To the client, the proxy is the jinmu.me web server itself.
+4. Send request to proxy: **The client sends an HTTP request to that address, completely unaware that this IP address belongs to the proxy**. \*\*To the client, the proxy is the jinmu.me web server itself.
 
 If you're interested in learning more about the behavior of DNS, I highly recommend checking out my [DNS Series](/series)!
 
- Thanks to this approach, the client doesn't need to know anything and the server architecture is free to change.
+Thanks to this approach, the client doesn't need to know anything and the server architecture is free to change.
 
 ### HTTP Redirection
 
@@ -144,7 +143,7 @@ Proxies introduced to enhance security can paradoxically become a security hole.
 So, we started with the definition of a proxy, then moved on to why they are used, where they are found in various locations, how they control traffic, and finally the downsides.
 This post started with the regret of not being able to answer the question about reverse proxy properly in my AUSG interview, but I was able to go beyond the superficial understanding of "a reverse proxy is something you put in front of a web server" and understand why it needs to be there and how it works so that the client is communicating with the proxy without realizing it. I'm reminded that the process of researching and refining my writing is the surest way to learn.
 
- I hope this article will be helpful to those who, like me, were vaguely aware of proxies in the past. Thank you.
+I hope this article will be helpful to those who, like me, were vaguely aware of proxies in the past. Thank you.
 
 ### Reference
 

@@ -2,9 +2,6 @@
 title: DNS (Domain Name System) DeepDive - Name Resolution
 date: 2025-07-06T02:48:10.982Z
 draft: false
-layout: PostDefault
-summary:
-banner: banner/dns-deepdive.jpg
 tags:
   - DNS
 lastmod: 2025-07-06T23:29:49+09:00
@@ -55,7 +52,6 @@ Name Resolution의 기본은 **질의**와 **응답**입니다. 이 질의와 �
 ![[dns-deepdive-3-1751809205331.webp]]
 
 1.  질의
-
     - User는 계층 구조의 정점인 루트의 네임 서버로 알고 싶은 정보의 이름과 종류를 지정해서 질의를 보냅니다.
 
 2.  응답

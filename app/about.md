@@ -3,7 +3,7 @@ name: Jinmu Go
 
 bio: A Smooth Sea Never Made a Skilled Sailor
 
-avatar: /static/images/avatar.webp
+avatar: /avatar.webp
 ---
 
 우연히 접한 [유튜브 영상](https://youtu.be/cpEeqACsF_Q?si=PWDXGamHLR4c5yfD)한 편으로 인생의 방향을 틀었다.

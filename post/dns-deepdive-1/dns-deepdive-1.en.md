@@ -2,9 +2,6 @@
 title: Domain Name System (DNS) DeepDive - Background and Systems
 date: 2025-06-08T12:58:28.806Z
 draft: false
-layout: PostDefault
-summary:
-banner: banner/dns-deepdive.jpg
 tags:
   - DNS
   - NameServer

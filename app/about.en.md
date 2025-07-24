@@ -1,7 +1,7 @@
 ---
 name: Jinmu Go
 bio: A Smooth Sea Never Made a Skilled Sailor
-avatar: /static/images/avatar.webp
+avatar: /avatar.webp
 ---
 
 A [YouTube video](https://youtu.be/cpEeqACsF_Q?si=PWDXGamHLR4c5yfD) I stumbled upon changed the course of my life.

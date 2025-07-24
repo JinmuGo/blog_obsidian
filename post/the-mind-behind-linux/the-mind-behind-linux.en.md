@@ -1,7 +1,6 @@
 ---
 date: "2024-04-19T00:00:00.000Z"
 draft: false
-layout: PostBannerX
 summary: About Open Source
 title: The mind behind linux
 tags:
