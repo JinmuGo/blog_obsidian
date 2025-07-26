@@ -23,10 +23,9 @@ bannerOnlyText: true
 - **커밋 메시지 처리:** 합쳐지는 모든 커밋의 메시지를 편집할 수 있도록 에디터가 열립니다. 즉, **이전 커밋 메시지와 현재 커밋 메시지를 모두 보여주며, 사용자가 이들을 조합하거나 새로운 메시지를 작성**할 수 있도록 합니다.
 - **주요 사용 시점:** 여러 개의 작은 기능 추가 커밋이나 리팩토링 커밋들을 하나의 의미 있는 큰 기능 커밋으로 만들고 싶을 때, 또는 여러 수정 커밋들을 하나의 깔끔한 커밋으로 정리하면서 그 내용을 통합된 하나의 메시지로 남기고 싶을 때 유용합니다.
 
-<div class="image-row">
-	![squash 명령어 선택](./git-squash-vs-fixup-1752198570627.webp)
-	![이렇게 에디터가 열립니다](./git-squash-vs-fixup-1752199918988.webp)
-</div>
+|  |  |
+|:-:|:-:|
+| ![[git-squash-vs-fixup-1752198570627.webp]] | ![[git-squash-vs-fixup-1752199918988.webp]] |
 ## `fixup` (또는 `f`)
 
 - **기능:** 해당 커밋을 이전 커밋과 합칩니다. (`squash`와 기능은 동일합니다.)
@@ -37,12 +36,9 @@ bannerOnlyText: true
 
 만약 이러한 아직 remote에 push되지 않은 커밋들이 있을 때
 
-<div class="image-row">
-
-![[git-squash-vs-fixup-1752199918988.webp]]
-![[git-squash-vs-fixup-1752199951224.webp]]
-
-</div>
+|  |  |
+|:-:|:-:|
+| ![[git-squash-vs-fixup-1752199918988.webp]] | ![[git-squash-vs-fixup-1752199951224.webp]] |
 
 저는 lazygit의 config를 수정하고 커밋 `3f05b2a` 에 합치고 싶습니다.
 

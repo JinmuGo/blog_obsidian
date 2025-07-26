@@ -2,7 +2,6 @@
 title: LazyGit! 게으르고 똑똑하게 작업하기
 date: 2025-07-10T13:19:18.524Z
 draft: true
-banner: lazygit-work-lazily-smartly.jpg
 tags:
   - git
 lastmod: 2025-07-11T15:32:50+09:00

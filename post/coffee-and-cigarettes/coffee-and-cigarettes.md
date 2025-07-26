@@ -3,7 +3,6 @@ title: 커피·담배, 그리고 체스판 위의 사람들
 date: 2025-04-17T04:51:16.861Z
 draft: false
 summary: 검은 잔과 흰 연기가 빚어내는 철학적 수다
-banner: coffee-and-cigarettes.jpg
 tags:
   - coffee
   - cigarettes

@@ -7,7 +7,7 @@ tags:
   - NameServer
 lastmod: 2025-06-28T11:42:15+09:00
 category: develop
-series: DNS DeepDive
+series: DNS-DeepDive
 seriesOrder: 1
 withAI: true
 ---

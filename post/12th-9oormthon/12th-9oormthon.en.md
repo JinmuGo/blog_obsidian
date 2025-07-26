@@ -160,12 +160,9 @@ When I wrote my application, I presented a service related to aging, so I made a
 
 On Day 1, I went out for a walk with my teammates in the middle of the day and had a good time eating black pork with other Goormoners in the evening. During Goormathon, you don't get to go outside that much. I recommend that you move around a lot from day 1. Sometimes it doesn't feel real to be in Jeju Island.
 
-<div class="image-row">
-
-![[image7.webp]]
-![[1st-dinner.webp]]
-
-</div>
+|  |  |
+|:-:|:-:|
+| ![[image7.webp]] | ![[1st-dinner.webp]] |
 
 ## Day 2
 
@@ -257,12 +254,9 @@ By 10 o'clock the next day, the presentation preparation and development were fi
 Seongsan Sunrise Peak, which we visited during the hackathon.
 And a photo with the team members.
 
-<div class="image-row">
-
-![[image6.webp]]
-![[team.webp]]
-
-</div>
+|  |  |
+|:-:|:-:|
+| ![[image6.webp]] | ![[team.webp]] |
 
 ## Day 4
 

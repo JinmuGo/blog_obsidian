@@ -23,12 +23,9 @@ This is the `interactive` screen that comes up when you type `git rebase -i`. As
 - Handles commit messages:\*\* Opens an editor to edit the messages of all the commits being merged, meaning it shows both the previous and current commit messages, and allows the user to combine them or create new ones.
 - Key uses:\*\* This is useful when you want to combine multiple small feature additions or refactoring commits into one large, meaningful feature commit, or when you want to organize multiple fix commits into one clean commit while leaving a unified message about what they are.
 
-<div class="image-row">
-
-![Select squash command](./git-squash-vs-fixup-1752198570627.webp)
-![The editor opens like this](./git-squash-vs-fixup-1752199918988.webp)
-
-</div>
+|  |  |
+|:-:|:-:|
+| ![[git-squash-vs-fixup-1752198570627.webp]] | ![[git-squash-vs-fixup-1752199918988.webp]] |
 
 ## `fixup` (or `f`)
 
@@ -40,12 +37,9 @@ This is the `interactive` screen that comes up when you type `git rebase -i`. As
 
 If you have these commits that have not yet been pushed to remote, you can use the
 
-<div class="image-row">
-
-![[git-squash-vs-fixup-1752199918988.webp]]
-![[git-squash-vs-fixup-1752199951224.webp]]
-
-</div>
+|  |  |
+|:-:|:-:|
+| ![[git-squash-vs-fixup-1752199918988.webp]] | ![[git-squash-vs-fixup-1752199951224.webp]] |
 
 I want to modify lazygit's config and merge it into commit `3f05b2a`.
 

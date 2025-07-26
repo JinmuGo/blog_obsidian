@@ -2,7 +2,6 @@
 title: Amazon Q Developer CLI 간단 체험기
 date: 2025-06-04T13:25:20.437Z
 draft: false
-banner: amazon-q-developer-cli.jpg
 tags:
   - AmazonQCLI
   - AWS

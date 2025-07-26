@@ -3,7 +3,6 @@ draft: false
 date: "2023-07-28T00:00:00.000Z"
 summary: 나생문을 보고나서
 title: 그럼에도, 우리는 믿어야 한다
-banner: rashomon.jpg
 tags:
   - 구로사와 아키라
   - 나생문
