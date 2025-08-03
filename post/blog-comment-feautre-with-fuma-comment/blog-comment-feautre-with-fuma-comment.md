@@ -10,9 +10,10 @@ tags:
   - prisma
   - uploadthing
   - github-oauth
-lastmod: 2025-05-02T14:58:29+09:00
+lastmod: 2025-08-03T12:41:02+09:00
 category: develop
 ---
+
 
 > [!attention]
 > 해당 글은 [fuma-comment Docs](https://fuma-comment.vercel.app/docs)과 [repository](https://github.com/fuma-nama/fuma-comment)를 참고 했습니다.
@@ -289,3 +290,10 @@ page props에는 각 페이지의 id또는 slug를 설정하면 페이지 별로
 
 > [!seealso]
 > 아마 글을 작성하면서 빠진 부분이나 부족한 부분이 있을 것으로 생각됩니다. 댓글이나 메일을 남겨주시면 최대한 빠른 시일내에 답변드리겠습니다. 감사합니다.
+
+## *2025-08-03 추가*
+
+> [!note] 
+> **블로그 이전 및 기능 변경 안내**
+> 현재 블로그는 **Astro** 기반으로 이전되었으며, 댓글 시스템 또한 다시 **Giscus**를 사용하고 있습니다.
+>  fuma-comment는 훌륭한 시스템이지만, 정적 사이트(Static Site)에 더 적합한 Giscus로 되돌아가게 되었습니다. 따라서 이 글에서 소개하는 `fuma-comment`는 현재 제 블로그에 적용되어 있지 않으니, **기술 아카이빙 목적**으로 참고해 주시면 감사하겠습니다.

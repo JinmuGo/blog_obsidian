@@ -2,7 +2,7 @@
 title: How to apply blog comment function With Fuma Comment
 date: 2025-05-01T01:46:46.245Z
 draft: false
-summary: A review of incomplete commenting functionality, rebuilt cleanly with Fuma Comment
+summary: A review of an incomplete commenting feature, rebuilt cleanly with Fuma Comment.
 tags:
   - fuma-comment
   - postgres
@@ -10,13 +10,13 @@ tags:
   - prisma
   - uploadthing
   - github-oauth
-lastmod: 2025-05-02T14:58:29+09:00
+lastmod: 2025-08-03T12:41:02+09:00
 category: develop
 ---
 
+
 > [!attention]
->
-> > This article references [fuma-comment Docs](https://fuma-comment.vercel.app/docs) and [repository](https://github.com/fuma-nama/fuma-comment).
+> This article references [fuma-comment Docs](https://fuma-comment.vercel.app/docs) and [repository](https://github.com/fuma-nama/fuma-comment).
 
 ## Intro
 
@@ -34,7 +34,7 @@ I thought, "This is it!" because I've been having a lot of trouble with my blog'
 
 ![[image4.png]]
 
-When I first built the commenting feature, I thought, **I want anyone to be able to come and comment without having to log in, so I removed OAuth, ID/PW, email, magic links, etc. as much as possible, so that people could CRUD their comments with just their **IP\*\*... But this was problematic 😞.
+When I first built the commenting feature, I thought, **I want anyone to be able to come and comment without having to log in, so I removed OAuth, ID/PW, email, magic links, etc. as much as possible, so that people could CRUD their comments with just their **IP**... But this was problematic 😞.
 
 1. it was possible to manipulate other people's comments in situations where IPs are shared, such as in public places.
 2. a person's IP is not static. You could write a comment yesterday and not see the edit button today.
@@ -106,7 +106,7 @@ I'm using Coolify, so. I spun up a container via docker on a remote server.
 
 And make it public so that this DB can be accessed remotely. Allow the port on your firewall, and if it's docker, proceed with port binding.
 
-If you succeeded in exposing the DB, try to access the DB with a client tool like `psql`. The URI of postgres is shown below.
+If you succeeded in exposing the DB, try to access the DB with a client tool like `psql`. The URI of postgres is as follows.
 
 ```text
 postgres://{POSTGRES_USERNAME}:{SERVICE_PASSWORD_POSTGRES}@{YOUR_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}
@@ -115,7 +115,7 @@ postgres://{POSTGRES_USERNAME}:{SERVICE_PASSWORD_POSTGRES}@{YOUR_HOST}:{POSTGRES
 ![[image9.png]]
 
 Now we will access this postgres public URI in our Route Handler.
-Before we do that, we need to do something.
+There's something we need to do before that.
 
 Link to the `prisma/schema.prisma` route and paste the following code.
 
@@ -284,9 +284,16 @@ By setting the id or slug of each page in the page props, you can customize the 
 
 ## Outro
 
-I've created a comment function using `fuma-comment` like this, and it's nice to see how simple it is to create and use, but I think it's more useful because there are so many ways to customize it. Even if you have a little knowledge of NextAuth, prisma, and postgres DB, you can customize it to your liking, which is the best part of this project.
+I've created a comment function using `fuma-comment` like this, and it's simple enough to use, but I think it's more useful because there are so many ways to customize it. Even if you have a little knowledge of NextAuth, prisma, and postgres DB, you can customize it to your liking, which is the best part of this project.
 
 I'd like to thank [fuma-nama](https://github.com/fuma-nama) for creating such an awesome project, and I'll leave you with this.
 
 > > [!seealso]
 > > I'm sure there are probably some things I missed while writing this post. Please feel free to leave a comment or mail me and I'll get back to you as soon as possible, thank you.
+
+## *added 2025-08-03*
+
+> [!note]
+> **Announcing blog migration and feature changes**.
+> > The blog has now been moved to **Astro**, and the commenting system is now using **Giscus** again.
+> > While fuma-comment is a great system, I've reverted back to Giscus, which is better suited for static sites, so the `fuma-comment` in this post is not currently applied to my blog, and I'd appreciate it if you'd refer to it for **technical archiving purposes**.
