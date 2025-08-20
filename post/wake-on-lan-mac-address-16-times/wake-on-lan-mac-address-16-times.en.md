@@ -10,11 +10,11 @@ tags:
   - Ethernet
   - Hardware
 category: network
-lastmod: 2025-08-19T16:57:51+09:00
-layout: 
-Banner: 
+lastmod: 2025-08-20T09:40:21+09:00
+layout:
+banner:
 ---
-I recently built a proxmox server on an unused computer. While I was having fun building my home server, I thought to myself, "I can turn off a computer remotely with ssh and use things like `shutdown`, `halt`, and `poweroff`, but can I turn on a computer that is off remotely?" I thought to myself.
+I recently built a proxmox server using an unused computer. While I was having fun building my home server, I thought to myself, "I know how to turn off a computer remotely with ssh and use things like `shutdown`, `halt`, and `poweroff`, but is it possible to turn on a computer that is off remotely?" I thought to myself.
 
 I found out that it can be implemented through a technology called Wake-on-LAN (WoL), and while researching, I found something very curious, so I'm going to write a short blog post about it.
 
@@ -44,9 +44,9 @@ MAC src: Source MAC address. The MAC address of the device sending this packet.
 
 > [!note]+ padding of Ethernet frames
 > In the early days of Ethernet, all computers shared a single communication line and communicated according to a convention called CSMA/CD. CD is Collision Detection, and if two computers send data at the same time, causing a 'collision', the sender detects this collision, stops sending data, and resends it.
-> The reason why the data in an Ethernet frame is smaller than 46 bytes and needs to be filled with 46 bytes is because of Collision Detection. If the data packet was too small, a data collision on the network could occur and the sender would not notice it and not resend it.
+> The reason why the data in an Ethernet frame is smaller than 46 bytes and needs to be filled with 46 bytes is because of Collision Detection. If the data packets were too small, data collisions on the network would not be recognized by the sender and would pass by without being resent.
 > If A sends a packet that is too small and ends the transmission in a split second, A doesn't realize that the data is broken and the data is lost.
-> To ensure that collisions could still be detected in this scenario, the engineers decided to arbitrarily increase the length of the data by adding padding. The defined size was 64 bytes, and the minimum size of the actual data (64 - 18) was calculated to be 46 bytes, excluding 18 bytes of basic information in the frame.
+> To ensure that collisions could be detected in this scenario, the engineers decided to arbitrarily increase the length of the data by adding padding. The defined size was 64 bytes, and the minimum size of the actual data (64 - 18) was calculated to be 46 bytes, excluding 18 bytes of basic information in the frame.
 
 ### Magic Pattern
 
@@ -58,9 +58,9 @@ The **MAGIC Pattern** shown in the figure will be placed in the Payload field. T
 Additionally, Secure On Password allows you to set a password of 6 bytes in size, which is used by some WoL technologies to increase security. It is only used when the feature is enabled and prevents unauthorized users from remotely turning on the computer.
 
 > [!note]+ How synchronization streams make detection easier.
-> Synchronization streams make the scanning state machine much simpler. The scanning state machine refers to the hardware logic inside the Ethernet controller that analyzes incoming data to look for specific patterns.
+> Synchronization streams make the scanning state machine much simpler. The scanning state machine is the hardware logic inside the Ethernet controller that analyzes incoming data to look for specific patterns.
 > If there were no synchronization stream, the Ethernet controller would have to keep checking every incoming byte sequence to see when the pattern of a 6-byte MAC address repeated 16 times would start. This becomes a more complex and power hungry operation.
-> But if a clear and distinctive synchronization stream called FF ... FF comes first, the controller can start scanning for subsequent MAC address patterns only when it detects this six-byte sequence. In other words, the synchronization stream acts as a kind of beacon or marker, helping the controller minimize unnecessary scanning and focus on finding patterns only when it needs to.
+> But if a clear and distinctive synchronization stream called FF ... FF comes first, the controller can start scanning for subsequent MAC address patterns only when it detects this six-byte sequence. In other words, the synchronization stream acts as a beacon or marker, helping the controller minimize unnecessary scanning and focus on finding patterns only when it needs to.
 
 Now that we've rambled on for a bit, let's take a look at why MAC addresses are sent 16 times in a row.
 
@@ -74,7 +74,7 @@ For reference, the question was: **Why does the magic packet repeat the MAC addr
 ![[remote-wakeonlan-1755481071615.webp]]
 ~~clap~!
 
-I came across a 2014 article on a site called serverfault that kind of answered the question. It's not an official document, and it's not accurate, but the logic of the respondent convinced me, so I pulled it up.
+I came across a 2014 article on a site called serverfault that kind of answered the question. It's not an official document, and it's not accurate, but the logic of the answerer convinced me, so I pulled it up.
 
 ```embed
 title: "Why does a Wake-On-LAN packet contain 16 duplications of the target MAC address?"
@@ -85,7 +85,7 @@ url: "https://serverfault.com/questions/632908/why-does-a-wake-on-lan-packet-con
 
 The key is simplicity and reliability of the implementation.
 
-When AMD and Hewltt Packard (HP) first created Magic Packet, their goal was to add the feature as little as possible to existing hardware configurations, so they decided to utilize the address matching circuitry already present in Ethernet controllers to detect Magic Packets.
+When AMD and Hewltt Packard (HP) first created Magic Packet, their goal was to add the feature as little as possible to the existing hardware configuration, so they decided to utilize the address matching circuitry already present in Ethernet controllers for Magic Packet detection.
 The address matching circuitry is responsible for identifying and receiving only the frames that match the MAC address of the PC in question out of the many incoming Ethernet frames on the network. To add the ability to detect magic packets, we simply added a counter that repeatedly counts the MAC address 16 times.
 
 We use a 4-bit counter that can hold values from 0 to 15, which allows for simple logic to execute wakeup code when the counter overflows (15+1=0). According to the pseudo code in the link above, it looks like this
@@ -107,7 +107,7 @@ This is all about the simplicity of the implementation, and the number 16 comes 
 
 ### What if we use a 2-bit counter?
 
-If we were to use a 2-bit counter and repeat the MAC address only 4 times, it would be 24 bytes, which is less than the minimum size of frame data (46 bytes), so we would add padding. This would make it much more likely that such a sequence would occur on the network by chance, greatly increasing the chance of unintentionally waking up the system. It would also have weakened the characteristics that distinguish magic packets from other network traffic, making them less reliable.
+If we were to use a 2-bit counter to repeat the MAC address only 4 times, it would be 24 bytes, which is less than the minimum size of frame data (46 bytes), so we would add padding. This would make it much more likely that such a sequence would occur on the network by chance, greatly increasing the chance of unintentionally waking up the system. It would also have weakened the characteristics that distinguish magic packets from other network traffic, making them less reliable.
 To summarize, using a 2-bit counter to iterate the MAC address only 4 times would have maintained the simplicity of the hardware implementation, but would have been significantly worse than the current 16 iterations in terms of "misbehavior prevention" and "high reliability", two of the most important goals.
 
 ### What if we use 8-bit counters?
@@ -119,7 +119,7 @@ An 8-bit counter can represent values from 0 to 255, and in order for the counte
 So why a 4-bit counter? Let's put the previous hypotheses together
 
 - A 2-bit counter (iterated 4 times) is too risky ** The payload size is too small, increasing the chance of false positives. There was a risk that data on the network could be accidentally recognized as a magic packet, causing the system to turn on unwantedly. **Failed on reliability grounds.
-- The payload size exceeds the Ethernet maximum transmission unit (MTU), making it impossible to send over standard networks in the first place. Rejected for **practicality**.
+- The payload size exceeds the Ethernet maximum transmission unit (MTU), making it impossible to transmit over standard networks in the first place. Rejected for **practicality**.
 
 In the end, a 4-bit counter (16 iterations) was the sweet spot that solved both problems. It is long enough (96 bytes) to maximize reliability, while remaining fully compliant with the Ethernet frame standard and not losing practicality. At the same time, it minimized the complexity of the hardware, as it could be implemented as a simple 4-bit counter.
 
@@ -128,3 +128,29 @@ Within these constraints, 16 was the number that captured the best of both world
 
 What started as a curiosity about the number 16 while simply configuring a home server has led me to this point. With the limited resources of early Ethernet controllers, minimum frame sizes, and the need to distinguish between random data and signals, engineers found a solution.
 The fact that such a seemingly trivial technical detail has such a rational reason and solution is one of the true fascinations of engineering.
+
+
+
+
+## Reference
+
+```embed
+title: "WakeOnLAN - Wireshark Wiki"
+image: "https://www.wireshark.org/assets/img/wireshark-logo.png"
+description: "WakeOnLAN is the protocol name given to the so-called Magic Packet technology, developed by AMD and Hewlett Packard for remotely waking up a remote host that may have been automatically powered-down because of its power management features. Although power management allows companies and individuals to cut power usage costs, it presents a problem for IT departments especially in being able to quickly and efficiently remotely manage PC's, especially during off-hours operation when those PC's are most likely to be in a suspended or standby state, assuming power management features are enabled."
+url: "https://wiki.wireshark.org/WakeOnLAN"
+```
+
+```embed
+title: "Wake-on-LAN - Wikipedia"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Wake_on_LAN_connector.JPG/1200px-Wake_on_LAN_connector.JPG"
+description: "Wake-on-LAN (WoL)[a] is an Ethernet or Token Ring computer networking standard that allows a computer to be turned on or awakened from sleep mode by a network message. The message is usually sent to the target computer by a program executed on a device connected to the same local area network (LAN). It is also possible to initiate the message from another network by using subnet directed broadcasts or a WoL gateway service. It is based upon AMD's Magic Packet Technology, which was co-developed by AMD and Hewlett-Packard, following its proposal as a standard in 1995. The standard saw quick adoption thereafter through IBM, Intel and others."
+url: "https://en.wikipedia.org/wiki/Wake-on-LAN"
+```
+
+```embed
+title: "20213.pdf"
+image: "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/white-papers/20213.pdf&size=128"
+description: "Publication# 20213"
+url: "https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/white-papers/20213.pdf"
+```

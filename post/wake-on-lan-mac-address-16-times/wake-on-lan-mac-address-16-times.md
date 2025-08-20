@@ -10,7 +10,7 @@ tags:
   - Ethernet
   - Hardware
 category: network
-lastmod: 2025-08-19T16:54:53+09:00
+lastmod: 2025-08-20T09:40:21+09:00
 layout: 
 banner: 
 ---
@@ -128,3 +128,29 @@ Loop again.
 
 단순히 홈서버를 구성하며 시작된 16이라는 숫자에 대한 호기심에서 비롯되어 여기까지 와버렸다. 초창기 이더넷 컨트롤러의 제한된 자원, 최소 프레임 크기, 그리고 무작위 데이터와 신호를 구분해야 하는 여러 제약 속에서 엔지니어들은 해법을 찾아내었다. 
 사소해 보이는 기술적 디테일 하나에도 이처럼 합리적인 이유와  해법이 담겨 있다는 사실이, 엔지니어링의 진정한 매력이 아닐까 하는 생각이 든다. 
+
+
+
+
+## Reference
+
+```embed
+title: "WakeOnLAN - Wireshark Wiki"
+image: "https://www.wireshark.org/assets/img/wireshark-logo.png"
+description: "WakeOnLAN is the protocol name given to the so-called Magic Packet technology, developed by AMD and Hewlett Packard for remotely waking up a remote host that may have been automatically powered-down because of its power management features. Although power management allows companies and individuals to cut power usage costs, it presents a problem for IT departments especially in being able to quickly and efficiently remotely manage PC’s, especially during off-hours operation when those PC’s are most likely to be in a suspended or standby state, assuming power management features are enabled."
+url: "https://wiki.wireshark.org/WakeOnLAN"
+```
+
+```embed
+title: "Wake-on-LAN - Wikipedia"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Wake_on_LAN_connector.JPG/1200px-Wake_on_LAN_connector.JPG"
+description: "Wake-on-LAN (WoL)[a] is an Ethernet or Token Ring computer networking standard that allows a computer to be turned on or awakened from sleep mode by a network message. The message is usually sent to the target computer by a program executed on a device connected to the same local area network (LAN). It is also possible to initiate the message from another network by using subnet directed broadcasts or a WoL gateway service. It is based upon AMD’s Magic Packet Technology, which was co-developed by AMD and Hewlett-Packard, following its proposal as a standard in 1995. The standard saw quick adoption thereafter through IBM, Intel and others."
+url: "https://en.wikipedia.org/wiki/Wake-on-LAN"
+```
+
+```embed
+title: "20213.pdf"
+image: "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/white-papers/20213.pdf&size=128"
+description: "Publication# 20213"
+url: "https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/white-papers/20213.pdf"
+```
