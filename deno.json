@@ -1,0 +1,6 @@
+{
+  "fmt": {
+    "proseWrap": "preserve",
+    "include": ["post/**/*.md", "memo/**/*.md", "app/**/*.md"]
+  }
+}

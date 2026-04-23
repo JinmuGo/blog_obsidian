@@ -118,6 +118,62 @@ sections:
   - type: projects
     title: 프로젝트
     data:
+      - id: 9
+        name: Plexus
+        title: Plexus
+        tagline: AI 에이전트 관측 플랫폼
+        role: Creator
+        description: |
+          Claude Code, Cursor, Gemini 등 여러 AI 에이전트를 실시간으로 모니터링하고 제어하는 데스크톱 대시보드입니다. Electron과 React를 사용하여 개발했으며, AI 세션의 비용과 활동을 시각화하여 관리 효율성을 높였습니다.
+        problem: 다수의 AI 에이전트를 동시에 사용할 때 작업 흐름이 분산되고 상태 파악이 어려운 문제를 해결하고자 했습니다.
+        responsibilities:
+          - Electron 기반의 크로스 플랫폼 데스크톱 애플리케이션 아키텍처 설계
+          - 다양한 AI 에이전트(Claude, Cursor 등)와의 통합을 위한 Hook 시스템 구현
+          - SQLite를 활용한 효율적인 세션 데이터 저장 및 관리
+        image: /project/plexus.png
+        category: Desktop Application
+        tags:
+          - Electron
+          - React
+          - TypeScript
+          - SQLite
+          - AI Integration
+        timeline: "2025 ~ Present"
+        github: https://github.com/JinmuGo/plexus
+        exhibitNumber: XII
+        year: 2025
+        metrics:
+          users: 얼리 액세스
+          performance: 실시간 관측
+          impact: 생산성 도구
+      - id: 10
+        name: Everly AI
+        title: Everly AI
+        tagline: IaC 기반 AI 서비스 인프라
+        role: DevOps Engineer
+        description: |
+          Terraform을 사용하여 GCP 기반의 확장 가능한 AI 서비스 인프라를 구축했습니다. Cloud Run, Cloud SQL, Secret Manager 등 모든 리소스를 코드로 관리(IaC)하며, GitHub Actions를 통해 안정적인 CI/CD 파이프라인을 구현했습니다.
+        problem: 수동으로 인프라를 관리할 때 발생하는 설정 오류와 환경 간 불일치 문제를 해결하고, 배포 프로세스를 자동화해야 했습니다.
+        responsibilities:
+          - Terraform 모듈화를 통한 재사용 가능한 인프라 코드 작성
+          - Cloud Run 및 Cloud SQL 기반의 고가용성 아키텍처 설계
+          - Secret Manager와 IAM을 활용한 보안 강화 및 최소 권한 원칙 적용
+        image: /project/everly.png
+        category: DevOps & Infrastructure
+        tags:
+          - Terraform
+          - GCP
+          - GitHub Actions
+          - Docker
+          - DevOps
+        timeline: "2025"
+        github: https://github.com/JinmuGo
+        exhibitNumber: XIII
+        year: 2025
+        metrics:
+          users: 내부 서비스
+          performance: 배포 자동화
+          impact: 인프라 안정성
       - id: 6
         name: obsidian-theme-by-folder
         title: Theme by Folder
@@ -283,4 +339,3 @@ sections:
           performance: 비동기 I/O
           impact: 아키텍처 설계
 ---
-

@@ -13,7 +13,7 @@ sections:
       - id: 1
         name: IA x AI 해커톤
         tagline: AI 도슨트 서비스 개발
-        description: |- 
+        description: |-
           AI 도슨트 서비스 'AIMuse' 기획 및 개발.
           와이어프레임 디자인, 전시·작품 설명 페이지와 챗봇구현, 프론트엔드·백엔드 CI/CD 구축
         problem: 미술관 관람객들이 작품에 대한 깊이 있는 정보를 얻기 어려운 문제 해결
@@ -30,7 +30,6 @@ sections:
           - DevOps
           - CI/CD
         timeline: "2025"
-        github: https://github.com/2025-IA-x-AI-Hackathon/Hack-gotowork
         live: https://www.epnc.co.kr/news/articleView.html?idxno=324404
         exhibitNumber: "01"
         year: 2025
@@ -53,7 +52,7 @@ sections:
           - Collaboration
         timeline: "2024"
         github: https://github.com/ddol-mang/hey-oldlady
-        live: https://jinmu.me/posts/12th-9oormthon
+        live: https://9oormthon.goorm.io/1754e699-7fb0-801c-8850-d141189ad6d5
         exhibitNumber: "02"
         year: 2024
   - type: opensource
@@ -128,6 +127,54 @@ sections:
   - type: projects
     title: 프로젝트
     data:
+      # - id: 9
+      #   name: Plexus
+      #   title: Plexus
+      #   tagline: AI 에이전트 관측 플랫폼
+      #   description: Claude Code, Cursor, Gemini 등 여러 AI 에이전트를 실시간으로 모니터링하고 제어하는 데스크톱 대시보드.
+      #   problem: 다수의 AI 에이전트를 동시에 사용할 때 작업 흐름을 파악하고 관리하기 어려운 문제 해결
+      #   role: Creator
+      #   responsibilities:
+      #     - Electron 기반 데스크톱 앱 개발
+      #     - 에이전트 상태 실시간 모니터링 및 제어 기능 구현
+      #     - SQLite 기반 세션 기록 및 비용 추적 시스템 구축
+      #   image: /project/plexus.png
+      #   category: Desktop App
+      #   tags:
+      #     - Electron
+      #     - React
+      #     - TypeScript
+      #     - SQLite
+      #     - AI
+      #   timeline: "2025 ~ Present"
+      #   github: https://github.com/JinmuGo/plexus
+      #   live: https://github.com/JinmuGo/plexus
+      #   exhibitNumber: "09"
+      #   year: 2025
+      # - id: 10
+      #   name: Everly AI
+      #   title: Everly AI
+      #   tagline: IaC 기반 AI 서비스 인프라
+      #   description: Terraform을 활용하여 GCP 기반의 확장 가능한 AI 서비스 인프라 구축. Cloud Run, Cloud SQL 등을 코드로 관리하고 GitHub Actions로 CI/CD 자동화.
+      #   problem: 수동 인프라 관리의 비효율성과 환경 간 일관성 유지 문제 해결
+      #   role: DevOps Engineer
+      #   responsibilities:
+      #     - Terraform을 이용한 GCP 인프라 프로비저닝
+      #     - GitHub Actions 기반의 CI/CD 파이프라인 구축
+      #     - 보안 및 비용 최적화를 위한 인프라 설계
+      #   image: /project/everly.png
+      #   category: DevOps
+      #   tags:
+      #     - Terraform
+      #     - GCP
+      #     - GitHub Actions
+      #     - Docker
+      #     - DevOps
+      #   timeline: "2025"
+      #   github: https://github.com/JinmuGo
+      #   live: https://everlyai.neungsohwa.com
+      #   exhibitNumber: "10"
+      #   year: 2025
       - id: 3
         name: FdF
         title: FdF
@@ -195,4 +242,3 @@ sections:
         exhibitNumber: "05"
         year: 2023
 ---
-

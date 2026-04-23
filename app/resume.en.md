@@ -28,7 +28,6 @@ sections:
           - DevOps
           - CI/CD
         timeline: "2025"
-        github: https://github.com/2025-IA-x-AI-Hackathon/Hack-gotowork
         live: https://www.epnc.co.kr/news/articleView.html?idxno=324404
         exhibitNumber: "01"
         year: 2025
@@ -123,6 +122,54 @@ sections:
   - type: projects
     title: Projects
     data:
+      # - id: 9
+      #   name: Plexus
+      #   title: Plexus
+      #   tagline: AI Agent Observability Platform
+      #   description: A desktop dashboard to monitor and control multiple AI agents (Claude Code, Cursor, Gemini) in real-time. Built with Electron and React.
+      #   problem: Solved the problem of scattered workflows and difficulty in tracking status when using multiple AI agents simultaneously.
+      #   role: Creator
+      #   responsibilities:
+      #     - Designed cross-platform desktop application architecture
+      #     - Implemented Hook system for AI agent integration
+      #     - Built session data storage using SQLite
+      #   image: /project/plexus.png
+      #   category: Desktop App
+      #   tags:
+      #     - Electron
+      #     - React
+      #     - TypeScript
+      #     - SQLite
+      #     - AI
+      #   timeline: "2025 ~ Present"
+      #   github: https://github.com/JinmuGo/plexus
+      #   live: https://github.com/JinmuGo/plexus
+      #   exhibitNumber: "09"
+      #   year: 2025
+      # - id: 10
+      #   name: Everly AI
+      #   title: Everly AI
+      #   tagline: IaC-based AI Service Infrastructure
+      #   description: Built scalable AI service infrastructure on GCP using Terraform. Managed resources as code and implemented automated deployment with GitHub Actions.
+      #   problem: Needed to solve configuration errors and inconsistencies between environments caused by manual infrastructure management.
+      #   role: DevOps Engineer
+      #   responsibilities:
+      #     - Provisioned GCP infrastructure using Terraform
+      #     - Built CI/CD pipelines based on GitHub Actions
+      #     - Designed infrastructure for security and cost optimization
+      #   image: /project/everly.png
+      #   category: DevOps
+      #   tags:
+      #     - Terraform
+      #     - GCP
+      #     - GitHub Actions
+      #     - Docker
+      #     - DevOps
+      #   timeline: "2025"
+      #   github: https://github.com/JinmuGo
+      #   live: https://everlyai.neungsohwa.com
+      #   exhibitNumber: "10"
+      #   year: 2025
       - id: 3
         name: FdF
         title: FdF
@@ -192,4 +239,3 @@ sections:
         exhibitNumber: "05"
         year: 2023
 ---
-

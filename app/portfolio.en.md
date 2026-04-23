@@ -80,8 +80,8 @@ sections:
     data:
       - name: obsidian-theme-by-folder
         description: |
-         An Obsidian plugin that automatically switches the Obsidian theme based on the folder of the open note.
-         Developed because I wanted to apply a different Obsidian theme than my usual one only when writing.
+          An Obsidian plugin that automatically switches the Obsidian theme based on the folder of the open note.
+          Developed because I wanted to apply a different Obsidian theme than my usual one only when writing.
         role: Creator
         tech: TypeScript, Obsidian API
         github: https://github.com/JinmuGo/obsidian-theme-by-folder
@@ -147,6 +147,62 @@ sections:
   - type: projects
     title: Projects
     data:
+      - id: 9
+        name: Plexus
+        title: Plexus
+        tagline: AI Agent Observability Platform
+        role: Creator
+        description: |
+          A desktop dashboard to monitor and control multiple AI agents (Claude Code, Cursor, Gemini) in real-time. Built with Electron and React, it visualizes AI session costs and activities to improve management efficiency.
+        problem: Solved the problem of scattered workflows and difficulty in tracking status when using multiple AI agents simultaneously.
+        responsibilities:
+          - Designed cross-platform desktop application architecture based on Electron
+          - Implemented Hook system for integration with various AI agents
+          - Efficient session data storage and management using SQLite
+        image: /project/plexus.png
+        category: Desktop Application
+        tags:
+          - Electron
+          - React
+          - TypeScript
+          - SQLite
+          - AI Integration
+        timeline: "2025 ~ Present"
+        github: https://github.com/JinmuGo/plexus
+        exhibitNumber: XII
+        year: 2025
+        metrics:
+          users: Early Access
+          performance: Real-time
+          impact: Productivity
+      - id: 10
+        name: Everly AI
+        title: Everly AI
+        tagline: IaC-based AI Service Infrastructure
+        role: DevOps Engineer
+        description: |
+          Built scalable AI service infrastructure on GCP using Terraform. Managed all resources including Cloud Run, Cloud SQL, and Secret Manager as code (IaC), and implemented stable CI/CD pipelines via GitHub Actions.
+        problem: Needed to solve configuration errors and inconsistencies between environments caused by manual infrastructure management, and automate the deployment process.
+        responsibilities:
+          - Created reusable infrastructure code through Terraform modularization
+          - Designed high-availability architecture based on Cloud Run and Cloud SQL
+          - Enhanced security and applied least privilege principle using Secret Manager and IAM
+        image: /project/everly.png
+        category: DevOps & Infrastructure
+        tags:
+          - Terraform
+          - GCP
+          - GitHub Actions
+          - Docker
+          - DevOps
+        timeline: "2025"
+        github: https://github.com/JinmuGo
+        exhibitNumber: XIII
+        year: 2025
+        metrics:
+          users: Internal Service
+          performance: Automation
+          impact: Stability
       - id: 5
         name: FdF
         title: FdF
@@ -231,4 +287,3 @@ sections:
           performance: Asynchronous I/O
           impact: architectural design
 ---
-
